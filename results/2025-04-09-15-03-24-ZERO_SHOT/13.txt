@@ -1,0 +1,138 @@
+##Aufgabenbeschreibung##
+Du sollst Entitäten in dieser öffentlichen Ausschreibung erkennen:
+##Definitionen der Entitäten##
+Folgende Entitäten sollst du erkennen:
+1. Veröffentlichungsdatum (Synonyme: Datum der Veröffentlichung, Bekanntmachung): kann in verschiedenen Formaten vorliegen (bspw. 23.01.2025, 23. Januar 2025).
+2. Erfüllungsort (Synonyme: Ort der Ausführung, Leistungsort, Ort der Leistungserbringung): hierbei kann es sich um eine vollständige Adresse mit Straße, Hausnummer, Postleitzahl und Stadt, als auch um eine einfache Ortsangabe in Form einer Stadt handeln.
+3. Vergabestelle (Synonyme: Auftraggeber, Beschaffer): die liegt häufig als verschachteltes Objekt vor (bspw. "Bundesministerium für Verkehr und digitale Infrastruktur").
+4. Geschäftszeichen (Synonyme: Vergabenummer, Identifikationsnummer, Vergabenr., Projektnummer, Interne Kennung): setzt sich typischerweise aus der Behörde oder Institution, dem Jahr der Veröffentlichung, einer fortlaufenden Ausschreibungsnummer und gegebenenfalls der Art der Ausschreibung zusammen (z. B. 0362/25-B-Ö-21).
+##Aufgabenschwerpunkte##
+Bevor du die Lösung abgibst, überprüfe bei jeder Entität, ob du sie wirklich 
+richtig und vollständig identifiziert hast. Entitäten sind nur dann richtig erkannt, 
+wenn sie vollständig und korrekt erkannt wurden. Entitäten können diskontinuierlich oder geschachtelte Objekte, 
+wie bspw. "Bundesministreium für Verkehr und digitale Infrastruktur", sein.
+
+##Ausgabeindikator##
+Gebe den Auszug aus der Ausschreibung vollständig zurück. Markiere die 
+gefundenen Entitäten wie folgt: die Entität wird mit Prefix @@ und dem Suffix **
+gekennzeichnet. Schreibe in Klammern die Art der Entität dahinter (Veröffentlichunsdatum, Erfüllungsort, Vergabestelle oder Geschäftszeichen).
+<div _ngcontent-ng-c2355961157="" class="flex-column">
+    <mat-card _ngcontent-ng-c2355961157="" appearance="outlined" class="mat-mdc-card mdc-card flex-50-auto mat-mdc-card-outlined mdc-card--outlined">
+        <mat-card-header _ngcontent-ng-c2355961157="" class="mat-mdc-card-header flex-row mat-card-header">
+            <div class="mat-mdc-card-header-text">
+                <mat-card-title _ngcontent-ng-c2355961157="" class="mat-mdc-card-title color-primary mat-card-title"><h4 _ngcontent-ng-c2355961157="">Details</h4></mat-card-title>
+            </div>
+        </mat-card-header>
+        <mat-card-content _ngcontent-ng-c2355961157="" class="mat-mdc-card-content flex-row content-details">
+            <div _ngcontent-ng-c2355961157="" class="flex-column flex-100 gap-05-percent">
+                <div _ngcontent-ng-c2355961157="" class="flex-row">
+                    <div _ngcontent-ng-c2355961157="" class="flex-div"><h4 _ngcontent-ng-c2355961157="">Auftraggeber</h4></div>
+                </div>
+                <mat-divider _ngcontent-ng-c2355961157="" role="separator" class="mat-divider divider mat-divider-horizontal" aria-orientation="horizontal"></mat-divider>
+                <div _ngcontent-ng-c2355961157="" class="flex-row margin-bottom-5">
+                    <div _ngcontent-ng-c2355961157="" class="flex-column flex-basis-40">Auftraggebertyp</div>
+                    <div _ngcontent-ng-c2355961157="" class="flex-column flex-basis-60">Sektorenauftraggeber</div>
+                </div>
+                <div _ngcontent-ng-c2355961157="" class="flex-row margin-bottom-5">
+                    <div _ngcontent-ng-c2355961157="" class="flex-column flex-basis-40">Auftraggeber</div>
+                    <div _ngcontent-ng-c2355961157="" class="flex-column flex-basis-60">DB InfraGO AG – Geschäftsbereich Personenbahnhöfe (Bukr 11)</div>
+                </div>
+                <div _ngcontent-ng-c2355961157="" class="flex-row">
+                    <div _ngcontent-ng-c2355961157="" class="flex-column flex-basis-40">Adresse</div>
+                    <div _ngcontent-ng-c2355961157="" class="flex-column flex-basis-60">
+                        <div _ngcontent-ng-c2355961157="" class="flex-row">Europaplatz 1</div>
+                        <div _ngcontent-ng-c2355961157="" class="flex-row">10557&nbsp;Berlin</div>
+                    </div>
+                </div>
+                <div _ngcontent-ng-c2355961157="" class="flex-row">
+                    <div _ngcontent-ng-c2355961157="" class="flex-div"><h4 _ngcontent-ng-c2355961157="">Verfahren</h4></div>
+                </div>
+                <mat-divider _ngcontent-ng-c2355961157="" role="separator" class="mat-divider divider mat-divider-horizontal" aria-orientation="horizontal"></mat-divider>
+                <div _ngcontent-ng-c2355961157="" class="flex-row margin-bottom-5">
+                    <div _ngcontent-ng-c2355961157="" class="flex-column flex-basis-40">Projektnummer</div>
+                    <div _ngcontent-ng-c2355961157="" class="flex-column flex-basis-60">25FEI79203</div>
+                </div>
+                <div _ngcontent-ng-c2355961157="" class="flex-row margin-bottom-5">
+                    <div _ngcontent-ng-c2355961157="" class="flex-column flex-basis-40">Titel</div>
+                    <div _ngcontent-ng-c2355961157="" class="flex-column flex-basis-60">BIM-Planung Empfangsgebäude Passau - TGA inkl. Bestandsaufnahme. - 50 Hz, ITK,HLS/GA</div>
+                </div><!---->
+                <div _ngcontent-ng-c2355961157="" class="flex-row margin-bottom-5">
+                    <div _ngcontent-ng-c2355961157="" class="flex-column flex-basis-40">Vergabeordnung</div>
+                    <div _ngcontent-ng-c2355961157="" class="flex-column flex-basis-60">Sektorenverordnung</div>
+                </div>
+                <div _ngcontent-ng-c2355961157="" class="flex-row margin-bottom-5">
+                    <div _ngcontent-ng-c2355961157="" class="flex-column flex-basis-40">Leistungsart</div>
+                    <div _ngcontent-ng-c2355961157="" class="flex-column flex-basis-60">Architekten- und Ingenieurleistungen</div>
+                </div>
+                <div _ngcontent-ng-c2355961157="" class="flex-row margin-bottom-5">
+                    <div _ngcontent-ng-c2355961157="" class="flex-column flex-basis-40">Vergabeart</div>
+                    <div _ngcontent-ng-c2355961157="" class="flex-column flex-basis-60">EU: Verhandlungsverfahren mit ÖT</div>
+                </div>
+                <div _ngcontent-ng-c2355961157="" class="flex-row margin-bottom-5 ng-star-inserted">
+                    <div _ngcontent-ng-c2355961157="" class="flex-column flex-basis-40">Vertragsart</div>
+                    <div _ngcontent-ng-c2355961157="" class="flex-column flex-basis-60">Einzelbestellung</div>
+                </div>
+                <div _ngcontent-ng-c2355961157="" class="flex-row margin-bottom-5 ng-star-inserted">
+                    <div _ngcontent-ng-c2355961157="" class="flex-column flex-basis-40">Ausführungsort</div>
+                    <div _ngcontent-ng-c2355961157="" class="flex-column flex-basis-60">94032 Passau</div>
+                </div><!---->
+                <div _ngcontent-ng-c2355961157="" class="flex-row margin-bottom-5 ng-star-inserted">
+                    <div _ngcontent-ng-c2355961157="" class="flex-column flex-basis-40">Mehrere Hauptangebote zulässig</div>
+                    <div _ngcontent-ng-c2355961157="" class="flex-column flex-basis-60">Nein</div>
+                </div>
+                <div _ngcontent-ng-c2355961157="" class="flex-row margin-bottom-5 ng-star-inserted">
+                    <div _ngcontent-ng-c2355961157="" class="flex-column flex-basis-40">Unterteilung in Lose</div>
+                    <div _ngcontent-ng-c2355961157="" class="flex-column flex-basis-60">Ja</div>
+                </div><!---->
+                <div _ngcontent-ng-c2355961157="" class="flex-row margin-bottom-5 ng-star-inserted">
+                    <div _ngcontent-ng-c2355961157="" class="flex-column flex-basis-40">Art der losweisen Vergabe</div>
+                    <div _ngcontent-ng-c2355961157="" class="flex-column flex-basis-60">Bieter kann für ein oder mehrere Lose anbieten</div>
+                </div><!---->
+                <div _ngcontent-ng-c2355961157="" class="flex-row margin-bottom-5">
+                    <div _ngcontent-ng-c2355961157="" class="flex-column flex-basis-40">Verwendung elektronischer Mittel</div>
+                    <div _ngcontent-ng-c2355961157="" class="flex-column flex-basis-60">Die Einreichung der Angebote/Teilnahmeanträge darf nur elektronisch erfolgen</div>
+                </div>
+                <div _ngcontent-ng-c2355961157="" class="flex-row">
+                    <div _ngcontent-ng-c2355961157="" class="flex-column flex-basis-40">Klassifizierung</div>
+                    <div _ngcontent-ng-c2355961157="" class="flex-column flex-basis-60">41201000 - Planung Technische Gebäudeausrüstung<br>41210300 - Planung allgemeine
+                        elektrotechnische Anlagen<br>71240000-2 - Dienstleistungen von Architektur- und Ingenieurbüros sowie planungsbezogene Leistungen<br></div>
+                </div>
+                <div _ngcontent-ng-c2355961157="" class="flex-row">
+                    <div _ngcontent-ng-c2355961157="" class="flex-div"><h4 _ngcontent-ng-c2355961157="">Fristen und Termine</h4></div>
+                </div>
+                <mat-divider _ngcontent-ng-c2355961157="" role="separator" class="mat-divider divider mat-divider-horizontal" aria-orientation="horizontal"></mat-divider>
+                <div _ngcontent-ng-c2355961157="" class="flex-row margin-bottom-5">
+                    <div _ngcontent-ng-c2355961157="" class="flex-column flex-basis-40">Bekanntmachung</div>
+                    <div _ngcontent-ng-c2355961157="" class="flex-column flex-basis-60">27.03.2025 09:31</div>
+                </div>
+                <div _ngcontent-ng-c2355961157="" class="ng-star-inserted">
+                    <div _ngcontent-ng-c2355961157="" class="flex-row margin-bottom-5 ng-star-inserted">
+                        <div _ngcontent-ng-c2355961157="" class="flex-column flex-basis-40">Einreichungsfrist</div>
+                        <div _ngcontent-ng-c2355961157="" class="flex-column flex-basis-60">25.04.2025 10:00</div>
+                    </div><!----><!---->
+                    <div _ngcontent-ng-c2355961157="" class="flex-row margin-bottom-5 ng-star-inserted">
+                        <div _ngcontent-ng-c2355961157="" class="flex-column flex-basis-40">Frist Bieterfragen</div>
+                        <div _ngcontent-ng-c2355961157="" class="flex-column flex-basis-60">22.04.2025 11:00</div>
+                    </div><!----><!---->
+                    <div _ngcontent-ng-c2355961157="" class="flex-row margin-bottom-5 ng-star-inserted">
+                        <div _ngcontent-ng-c2355961157="" class="flex-column flex-basis-40">Auftragsdauer von</div>
+                        <div _ngcontent-ng-c2355961157="" class="flex-column flex-basis-60">24.07.2025</div>
+                    </div><!---->
+                    <div _ngcontent-ng-c2355961157="" class="flex-row margin-bottom-5 ng-star-inserted">
+                        <div _ngcontent-ng-c2355961157="" class="flex-column flex-basis-40">Auftragsdauer bis</div>
+                        <div _ngcontent-ng-c2355961157="" class="flex-column flex-basis-60">31.03.2026</div>
+                    </div><!----><!----></div><!----><!---->
+                <div _ngcontent-ng-c2355961157="" class="flex-row">
+                    <div _ngcontent-ng-c2355961157="" class="flex-div"><h4 _ngcontent-ng-c2355961157="">Verfahrensbeschreibung</h4></div>
+                </div>
+                <mat-divider _ngcontent-ng-c2355961157="" role="separator" class="mat-divider divider mat-divider-horizontal" aria-orientation="horizontal"></mat-divider>
+                <div _ngcontent-ng-c2355961157="" class="flex-row">
+                    <div _ngcontent-ng-c2355961157="" class="flex-column flex-basis-40">Beschreibung</div>
+                    <div _ngcontent-ng-c2355961157="" class="flex-column flex-basis-60">TGA-Planung (50 Hz, ITK, HLS/GA) für den Leerstandabbau (ca. 1.500 m²) im denkmalgeschützten
+                        Empfangsgebäude Passau Lph 1&amp;2 + opt. 3-7
+                    </div>
+                </div>
+            </div>
+        </mat-card-content>
+    </mat-card>
+</div>

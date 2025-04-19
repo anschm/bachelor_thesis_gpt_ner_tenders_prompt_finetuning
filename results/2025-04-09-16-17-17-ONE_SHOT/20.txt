@@ -1,0 +1,990 @@
+##Aufgabenbeschreibung##
+Du sollst Entitäten in dieser öffentlichen Ausschreibung erkennen:
+##Definitionen der Entitäten##
+Folgende Entitäten sollst du erkennen:
+1. Veröffentlichungsdatum (Synonyme: Datum der Veröffentlichung, Bekanntmachung): kann in verschiedenen Formaten vorliegen (bspw. 23.01.2025, 23. Januar 2025).
+2. Erfüllungsort (Synonyme: Ort der Ausführung, Leistungsort, Ort der Leistungserbringung): hierbei kann es sich um eine vollständige Adresse mit Straße, Hausnummer, Postleitzahl und Stadt, als auch um eine einfache Ortsangabe in Form einer Stadt handeln.
+3. Vergabestelle (Synonyme: Auftraggeber, Beschaffer): die liegt häufig als verschachteltes Objekt vor (bspw. "Bundesministerium für Verkehr und digitale Infrastruktur").
+4. Geschäftszeichen (Synonyme: Vergabenummer, Identifikationsnummer, Vergabenr., Projektnummer, Interne Kennung): setzt sich typischerweise aus der Behörde oder Institution, dem Jahr der Veröffentlichung, einer fortlaufenden Ausschreibungsnummer und gegebenenfalls der Art der Ausschreibung zusammen (z. B. 0362/25-B-Ö-21).
+##Aufgabenschwerpunkte##
+Bevor du die Lösung abgibst, überprüfe bei jeder Entität, ob du sie wirklich 
+richtig und vollständig identifiziert hast. Entitäten sind nur dann richtig erkannt, 
+wenn sie vollständig und korrekt erkannt wurden. Entitäten können diskontinuierlich oder geschachtelte Objekte, 
+wie bspw. "Bundesministreium für Verkehr und digitale Infrastruktur", sein.
+##Übungsbeispiel##
+<div id="content" class="no-bg">
+  <main class="container">
+    <div>
+      <h2>Ausschreibungsdetails</h2>
+    </div>
+    <div class="distance"></div>
+    <form class="form-horizontal">
+      <div class="procedure-infos">
+        <section class="clearfix">
+          <h4>1305_Neubau Feuerwehrgerätehaus Gutendorf, Los 16 Erschließung und Freianlagen</h4>
+          <div class="ev-tooltip">
+            <button
+              class="ev-tooltip-toggle"
+              type="button"
+              data-toggle="popover"
+              name="headerSection:contentLinkTenderingProcedureDetails:tooltipContainer:toggleButton"
+              id="id3f8"
+              aria-label="Zusatzinformation"
+            >
+              <span class="ev-tooltip-icon glyphicon glyphicon-info-sign" aria-hidden="true"></span>
+            </button>
+            <div class="ev-tooltip-content">
+              <div class="ev-tooltip-body wiki-markup-container">
+                <p>Zur Einhaltung der Teilnahmefrist wählen Sie vor deren Ablauf 'Teilnahme aktivieren' und laden mit Hilfe des AnA-Web die
+                  Vergabeunterlagen herunter.</p>
+              </div>
+              <span class="ev-tooltip-footer">
+                    <a href="https://www.evergabe-online.info/e-Vergabe/DE/3%20Unternehmen/BereitsRegistriert/node_BereitsRegistriert.html">Mehr lesen</a>
+                </span>
+            </div>
+          </div>
+        </section>
+        <div class="row procedure-info">
+          <div class="col-xs-12 col-sm-7">
+            <div class="form-group" id="id3f9">
+              <label class="col-xs-12 col-sm-6 col-md-5 control-label">
+                <span>Veröffentlichungsdatum:</span>
+              </label>
+              <div class="col-xs-12 col-sm-6 col-md-7">
+                <p class="form-control-static">
+                  @@28.03.2025** (Veröffentlichungsdatum)
+                </p>
+              </div>
+            </div>
+            <div class="form-group" id="id3fa">
+              <label class="col-xs-12 col-sm-6 col-md-5 control-label">
+                <span>Abgabefrist Angebot:</span>
+              </label>
+              <div class="col-xs-12 col-sm-6 col-md-7">
+                <p class="form-control-static">23.04.2025 15:00</p>
+              </div>
+            </div>
+            <div class="form-group" id="id3fb">
+              <label class="col-xs-12 col-sm-6 col-md-5 control-label">
+                Geschäftszeichen:
+              </label>
+              <div class="col-xs-12 col-sm-6 col-md-7">
+                <p class="form-control-static">@@ba-1305-16-2024** (Geschäftszeichen)</p>
+              </div>
+            </div>
+            <div class="form-group" id="id3fc">
+              <label class="col-xs-12 col-sm-6 col-md-5 control-label">
+                Vergabestelle:
+              </label>
+              <div class="col-xs-12 col-sm-6 col-md-7">
+                <p class="form-control-static">Thüringen: @@Stadtverwaltung Bad Berka** (Vergabestelle)</p>
+              </div>
+            </div>
+            <div class="form-group" id="id3fd">
+              <label class="col-xs-12 col-sm-6 col-md-5 control-label">
+                Letzte Änderung:
+              </label>
+              <div class="col-xs-12 col-sm-6 col-md-7">
+                <p class="form-control-static">28.03.2025 18:17</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-5">
+            <div class="bordered-section">
+              <h3 class="bordered-section-title">
+                Meine e-Vergabe
+              </h3>
+              <div class="bordered-section-body">
+                <ul class="link-box list-group">
+                  <li class="list-group-item">
+                    <a
+                      class="icon"
+                      id="id3e6"
+                      href="./tenderdetails.html?13-1.-headerSection-notLoggedInSubscribeButtonContainer-notLoggedInSubscribeButton&amp;id=762112"
+                      title="Teilnahme aktivieren"
+                      rel="nofollow"
+                    >
+                      <i class="fa fa-arrow-circle-o-right"></i>
+                      <span>Teilnahme aktivieren</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
+    <hr>
+    <div>
+      <div class="distance-higher"></div>
+      <div id="htmlDocument">
+        <div class="procedure-details nat-form">
+          <div class="procedure-header">
+            <div class="footer-content"><strong>DE</strong> Formular 121&nbsp;— Auftragsbekanntmachung
+            </div>
+            <h2>Auftragsbekanntmachung</h2>
+            <h3>Öffentliche Ausschreibung nach VOB/A</h3>
+            <p>Formular 121 - VHB-Bund - Ausgabe 2019</p>
+          </div>
+          <div class="section">
+            <div class="chapter">
+              <h4>
+                <div class="chapter-number">
+                  a)
+                </div>
+                <div class="chapter-headline">
+                  Öffentlicher Auftraggeber (Vergabestelle)
+                </div>
+              </h4>
+              <div class="chapter-content">
+                <div><span class="content-left">Name:</span> <span class="content-right">@@Stadtverwaltung Bad Berka</span>
+                </div>
+                <div><span class="content-left">Straße, Hausnummer:</span> <span class="content-right">Am Markt 10</span>
+                </div>
+                <div><span class="content-left">Postleitzahl (PLZ):</span> <span class="content-right">99438</span>
+                </div>
+                <div><span class="content-left">Ort:</span> <span class="content-right">Bad Berka</span>
+                </div>
+                <div><span class="content-left">Telefon:</span> <span class="content-right">+49 36458 55118</span>
+                </div>
+                <div><span class="content-left">E-Mail:</span> <span class="content-right"> <a href="mailto:vergabestelle@bad-berka.de">vergabestelle@bad
+                  -berka.de** (Vergabestelle)</a> </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="section">
+            <div class="chapter">
+              <h4>
+                <div class="chapter-number">
+                  b)
+                </div>
+                <div class="chapter-headline">
+                  Verfahrensart „Öffentliche Ausschreibung nach VOB/A“
+                </div>
+              </h4>
+              <div class="chapter-content">
+                <div><span class="content-left"> Geschäftszeichen: </span> <span class="content-right">@@ba-1305-16-2024** (Geschäftszeichen)</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="section">
+            <div class="chapter">
+              <h4>
+                <div class="chapter-number">
+                  c)
+                </div>
+                <div class="chapter-headline">
+                  Angaben zum elektronischen Vergabeverfahren und zur Ver- und Entschlüsselung der Unterlagen
+                </div>
+              </h4>
+              <div class="chapter-content">
+                <div class="chapter no-chapter-number">
+                  <h4>
+                    <div class="chapter-headline">
+                      Zugelassene Angebotsabgabe
+                    </div>
+                  </h4>
+                  <div class="chapter-content">
+                    <ul class="bullet-list">
+                      <li> elektronisch
+                        <ul class="bullet-list bullet-list-level">
+                          <li>ohne elektronische Signatur (Textform)</li>
+                          <li>mit fortgeschrittener elektronischer Signatur / fortgeschrittenem elektronischen Siegel</li>
+                          <li>mit qualifizierter elektronischer Signatur / qualifiziertem elektronischen Siegel</li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="section">
+            <div class="chapter">
+              <h4>
+                <div class="chapter-number">
+                  d)
+                </div>
+                <div class="chapter-headline">
+                  Art des Auftrags
+                </div>
+              </h4>
+              <div class="chapter-content">
+                Ausführung von Bauleistungen
+              </div>
+            </div>
+          </div>
+          <div class="section">
+            <div class="chapter">
+              <h4>
+                <div class="chapter-number">
+                  e)
+                </div>
+                <div class="chapter-headline">
+                  Ort der Ausführung
+                </div>
+              </h4>
+              <div class="chapter-content">
+                @@99438 Bad Berka, Ortsteil Gutendorf** (Erfüllungsort)
+                <br>
+              </div>
+            </div>
+          </div>
+          <div class="section">
+            <div class="chapter">
+              <h4>
+                <div class="chapter-number">
+                  f)
+                </div>
+                <div class="chapter-headline">
+                  Art und Umfang der Leistung, ggf. aufgeteilt nach Losen
+                </div>
+              </h4>
+              <div class="chapter-content">
+                1305_Neubau Feuerwehrgerätehaus Gutendorf, Los 16 Erschließung und Freianlagen
+                <br> .
+                <br> Titel Erschließung
+                <br> - Abwasserkanal: ca. 93 m Kanal DN 160 PP; ca. 51 m Regenwasserkanal DN 250 PP; ca. 22 m Regenwasserkanal DN 1000 Sb; 4
+                St Schächte DN 1000 Sb; 2 St Schächte DN 1500 Sb
+                <br> - Trinkwasserleitung: ca. 106 m Druckrohr HDPE 40 x 3,7; 1 St Wasserzählerschacht; ca. 32 m Erd- und Tiefbau für
+                Hausanschlussleitung
+                <br> - Straßenbau: ca. 340 m2 Asphaltdeck- u. Tragschicht; ca. 85 m2 Pflasterarbeiten; ca. 150 m Borde; ca. 100 m
+                Kabelleerrohr HDPE 110
+                <br> einschl. Erdbau
+                <br> .
+                <br> Titel Freianlagen
+                <br> ca. 120,00 m² Schotterrasen-Parkfläche inkl. Unterbau N2, ca. 200 m Bordstein, Betonbett, DIT, HB 150/ 220-300 mm;
+                200,00 m² Pflasterbelag Verkehrsfläche Bk 0,3, 250/250/80 mm,
+                <br> Halbverband, N2, ungebundene Bauweise; 150,00 m² Wasserdurchlässiger Asphalt (Dränasphalt), PA 16 TD WDA; 105,00 m²
+                Pflasterbelag Gehwege 300/300/100 mm, in Reihen,
+                <br> Halbverband, N1, ungebundene Bauweise; 215,00 m² Pflasterbelag Verkehrsfläche Bk 3,2, 150/300/100 mm, Halbverband, N3,
+                ungebundene Bauweise; 15,00 m² Sitzmauer 30 m lang, 0,5 cm hoch, Naturstein bauseits lagernd errichten inkl. Fundament;
+                11,500 m Kastenrinne, Beton/Stahl, NW 200 AS mit Abdeckrost, Guss, Klasse E, Breite 300 mm; 200 m³ Geländemodellierung,
+                nichtbindiger Boden, verdichten DPr 97 %; 400 m² Rasenansaat, Landschaftsrasen/Kräuter, 20 g/m² inkl. Fertigstellungspflege;
+                10 St Baum- und Solitärpflanzung einschl. aller erford. Vorarbeiten und Fertigstellungspflege
+                <br>
+              </div>
+            </div>
+          </div>
+          <div class="section">
+            <div class="chapter">
+              <h4>
+                <div class="chapter-number">
+                  h)
+                </div>
+                <div class="chapter-headline">
+                  Losweise Vergabe
+                </div>
+              </h4>
+              <div class="chapter-content">
+                Nein
+              </div>
+            </div>
+          </div>
+          <div class="section">
+            <div class="chapter">
+              <h4>
+                <div class="chapter-number">
+                  i)
+                </div>
+                <div class="chapter-headline">
+                  Ausführungsfristen
+                </div>
+              </h4>
+              <div class="chapter-content">
+                <div class="chapter level-two no-chapter-number">
+                  <div class="chapter-headline">
+                    Beginn der Ausführung
+                  </div>
+                  <div class="chapter-content">
+                    03.06.2025
+                  </div>
+                </div>
+                <div class="chapter level-two no-chapter-number">
+                  <div class="chapter-headline">
+                    Fertigstellung oder Dauer der Leistungen
+                  </div>
+                  <div class="chapter-content">
+                    30.03.2026
+                  </div>
+                </div>
+                <div class="chapter level-two no-chapter-number">
+                  <div class="chapter-headline">
+                    Weitere Fristen
+                  </div>
+                  <div class="chapter-content">
+                    Fertigstellung Erschließungsarbeiten bis 30.09.2025
+                    <br> Fertigstellung Freianlagen ohne Pflanzarbeiten bis 19.12.2025
+                    <br> Fertigstellung Pflanzarbeiten bis 30.03.2026
+                    <br>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="section">
+            <div class="chapter">
+              <h4>
+                <div class="chapter-number">
+                  j)
+                </div>
+                <div class="chapter-headline">
+                  Nebenangebote
+                </div>
+              </h4>
+              <div class="chapter-content">
+                nur in Verbindung mit einem Hauptangebot zugelassen
+              </div>
+            </div>
+          </div>
+          <div class="section">
+            <div class="chapter">
+              <h4>
+                <div class="chapter-number">
+                  k)
+                </div>
+                <div class="chapter-headline">
+                  Mehrere Hauptangebote
+                </div>
+              </h4>
+              <div class="chapter-content">
+                nicht zugelassen
+              </div>
+            </div>
+          </div>
+          <div class="section">
+            <div class="chapter">
+              <h4>
+                <div class="chapter-number">
+                  l)
+                </div>
+                <div class="chapter-headline">
+                  Bereitstellung/Anforderung der Vergabeunterlagen
+                </div>
+              </h4>
+              <div class="chapter-content">
+                <div class="chapter level-two no-chapter-number">
+                  <div class="chapter-headline">
+                    Vergabeunterlagen werden&nbsp;elektronisch zur Verfügung gestellt unter
+                  </div>
+                  <div class="chapter-content"><a href="https://www.evergabe-online.de/tenderdetails.html?id=762112" target="_blank">https://www.evergabe-online.de/tenderdetails.html?id=762112</a>
+                  </div>
+                </div>
+                <div class="chapter level-two no-chapter-number">
+                  <div class="chapter-headline">
+                    Nachforderung
+                  </div>
+                  <div class="chapter-content">
+                    <p>Fehlende Unterlagen, deren Vorlage mit Angebotsabgabe gefordert war, werden</p> nachgefordert.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="section">
+            <div class="chapter">
+              <h4>
+                <div class="chapter-number">
+                  o)
+                </div>
+                <div class="chapter-headline">
+                  Ablauf der Angebots- und der Bindefrist
+                </div>
+              </h4>
+              <div class="chapter-content">
+                <div class="chapter level-two no-chapter-number">
+                  <div class="chapter-headline">
+                    Ablauf der Angebotsfrist
+                  </div>
+                  <div class="chapter-content">
+                    23.04.2025 - 15:00 Uhr
+                  </div>
+                </div>
+                <div class="chapter level-two no-chapter-number">
+                  <div class="chapter-headline">
+                    Ablauf der Bindefrist
+                  </div>
+                  <div class="chapter-content">
+                    30.05.2025
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="section">
+            <div class="chapter">
+              <h4>
+                <div class="chapter-number">
+                  p)
+                </div>
+                <div class="chapter-headline">
+                  Angebote sind einzureichen
+                </div>
+              </h4>
+              <div class="chapter-content">
+                <div class="chapter level-two no-chapter-number">
+                  <div class="chapter-headline">
+                    elektronisch via
+                  </div>
+                  <div class="chapter-content"><a href="https://www.evergabe-online.de/tenderdetails.html?id=762112" target="_blank">https://www.evergabe-online.de/tenderdetails.html?id=762112</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="section">
+            <div class="chapter">
+              <h4>
+                <div class="chapter-number">
+                  q)
+                </div>
+                <div class="chapter-headline">
+                  Sprache, in der die Angebote abgefasst sein müssen
+                </div>
+              </h4>
+              <div class="chapter-content">
+                Deutsch (gilt auch für Rückfragen und Schriftverkehr)
+              </div>
+            </div>
+          </div>
+          <div class="section">
+            <div class="chapter">
+              <h4>
+                <div class="chapter-number">
+                  r)
+                </div>
+                <div class="chapter-headline">
+                  Zuschlagskriterien
+                </div>
+              </h4>
+              <div class="chapter-content">
+                siehe Vergabeunterlagen
+              </div>
+            </div>
+          </div>
+          <div class="section">
+            <div class="chapter">
+              <h4>
+                <div class="chapter-number">
+                  t)
+                </div>
+                <div class="chapter-headline">
+                  Geforderte Sicherheiten
+                </div>
+              </h4>
+              <div class="chapter-content">
+                siehe Vergabeunterlagen
+                <br>
+              </div>
+            </div>
+          </div>
+          <div class="section">
+            <div class="chapter">
+              <h4>
+                <div class="chapter-number">
+                  u)
+                </div>
+                <div class="chapter-headline">
+                  Wesentliche Finanzierungs- und Zahlungsbedingungen und/oder Hinweise auf die maßgeblichen Vorschriften, in denen sie
+                  enthalten sind
+                </div>
+              </h4>
+              <div class="chapter-content">
+                siehe Vergabeunterlagen
+                <br>
+              </div>
+            </div>
+          </div>
+          <div class="section">
+            <div class="chapter">
+              <h4>
+                <div class="chapter-number">
+                  v)
+                </div>
+                <div class="chapter-headline">
+                  Rechtsform der / Anforderung an Bietergemeinschaften
+                </div>
+              </h4>
+              <div class="chapter-content">
+                gesamtschuldnerisch haftend mit bevollmächtigtem Vertreter
+                <br>
+              </div>
+            </div>
+          </div>
+          <div class="section">
+            <div class="chapter">
+              <h4>
+                <div class="chapter-number">
+                  w)
+                </div>
+                <div class="chapter-headline">
+                  Beurteilung der Eignung
+                </div>
+              </h4>
+              <div class="chapter-content">
+                <p><label>Präqualifizierte Unternehmen</label> führen den Nachweis der Eignung durch den Eintrag in die Liste des Vereins
+                  für die Präqualifikation von Bauunternehmen e.V. (Präqualifikationsverzeichnis). Bei Einsatz von Nachunternehmen ist auf
+                  gesondertes Verlangen nachzuweisen, dass diese präqualifiziert sind oder die Voraussetzung für die Präqualifikation
+                  erfüllen. </p>
+                <p><label>Nicht präqualifizierte Unternehmen</label> haben zum Nachweis der Eignung mit dem Angebot das ausgefüllte
+                  Formblatt „Eigenerklärung zur Eignung“ vorzulegen. Bei Einsatz von Nachunternehmen sind auf gesondertes Verlangen die
+                  Eigenerklärungen auch für diese abzugeben. Sind die Nachunternehmen präqualifiziert, reicht die Angabe der Nummer, unter
+                  der diese in der Liste des Vereins für die Präqualifikation von Bauunternehmen e.V. (Präqualifikationsverzeichnis) geführt
+                  werden. </p>
+                <p> Gelangt das <label>Angebot</label> in die engere Wahl, sind die Eigenerklärungen (auch die der Nachunternehmen) auf
+                  gesondertes Verlangen durch Vorlage der in der „Eigenerklärung zur Eignung“ genannten Bescheinigungen zuständiger Stellen
+                  zu bestätigen. Bescheinigungen, die nicht in deutscher Sprache abgefasst sind, ist eine Übersetzung in die deutsche
+                  Sprache beizufügen. </p>
+                <br>
+                <div class="chapter level-two no-chapter-number">
+                  <div class="chapter-headline">
+                    Das Formblatt „Eigenerklärung zur Eignung“ ist erhältlich / ggf. geforderte Eignungsnachweise
+                  </div>
+                  <div class="chapter-content">
+                    siehe Vergabeunterlagen: 1305-16-13_FB_124_Eigenerklärung zur Eignung.pdf
+                    <br>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="section">
+            <div class="chapter">
+              <h4>
+                <div class="chapter-number">
+                  x)
+                </div>
+                <div class="chapter-headline">
+                  Nachprüfung behaupteter Verstöße
+                </div>
+              </h4>
+              <div class="chapter-content">
+                <div class="chapter level-two no-chapter-number">
+                  <div class="chapter-headline">
+                    Nachprüfungsstelle (§ 21 VOB/A)
+                  </div>
+                  <div class="chapter-content">
+                    Vergabekammer des Freistaats Thüringen beim
+                    <br> Thüringer Landesverwaltungsamt, Jorge-Semprún-Platz 4, 99423 Weimar
+                    <br> .
+                    <br> Beanstandungen der beabsichtigten Vergabeentscheidung nach ThürVgG sind an die Vergabestelle (@@Stadtverwaltung Bad
+                    Berka** (Vergabestelle), Am Markt 10, 99438 Bad Berka) zu richten. Auf das im §14 ThürVgG beschriebene Verfahren im Falle der Nichtabhilfe
+                    und die Kostenfolge nach §14 ThürVgG wird hingewiesen.
+                    <br>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row button-group">
+        <div class="col-xs-12 col-sm-12 col-md-12">
+          <a class="btn btn-primary" id="id400" href="./tenderdocuments.html?id=762112">Ausschreibungsunterlagen einsehen</a>
+        </div>
+      </div>
+      <hr>
+      <hr>
+      <div class="row">
+        <div class="col-sm-6 gui-id">
+          <label>
+            XVergabe GUID:
+          </label>
+          <span class="form-control-static">2fb21f9e-964b-4440-8482-dc602ecacbd3</span>
+        </div>
+        <div class="col-sm-6 link-procedure">
+          <label>
+            Link zu dieser Bekanntmachung:
+          </label>
+          <a href="./tenderdetails.html?id=762112">
+            https://www.evergabe-online.de/tenderdetails.html?id=762112
+          </a>
+        </div>
+      </div>
+    </div>
+  </main>
+</div>
+
+##Ausgabeindikator##
+Gebe den Auszug aus der Ausschreibung vollständig zurück. Markiere die 
+gefundenen Entitäten wie folgt: die Entität wird mit Prefix @@ und dem Suffix **
+gekennzeichnet. Schreibe in Klammern die Art der Entität dahinter (Veröffentlichunsdatum, Erfüllungsort, Vergabestelle oder Geschäftszeichen).
+<div class="content border content_small" style="margin-top: 0px;">
+    <div class="xyz" id="printarea">
+        <div class="col-lg-12 contractNoticeHeader">
+            <h1 class="color-main">Bekanntmachung</h1>
+            <h2 class="smallGrey">75922 Fachplanungsleistungen Technische Ausrüstung, Klinik Lipperland FV15-25-0161-10-05</h2>
+            <br>
+            <br>
+            <div class="participationFullscreen">
+
+                <form class="submitForm" method="post" action="ParticipationControllerServlet">
+                    <input type="hidden" name="VALIDATION_TOKEN" value="5348542963386680865">
+                    <input type="hidden" name="function" value="GetDocuments">
+                    <input type="hidden" name="TOID" value="54321-NetTender-19600b80296-5a062eaa3872eefa">
+                    <input type="submit" class="btn btn-primary" value="An Ausschreibung teilnehmen">
+                </form>
+
+
+            </div>
+            <div class="downloadDocuments">
+                <a class="hiddenForLoggedInUser noPrint color-main" href="TenderingProcedureDetails?function=_Details&amp;TenderOID=54321-NetTender-19600b80296-5a062eaa3872eefa&amp;thContext=publications">Unterlagen zur Ansicht herunterladen</a>
+            </div>
+            <div id="printDiv">
+                <a class="color-main" id="print" href="#">
+                    <i class="fas fa-print color-main" alt="Zur Druckansicht"></i>
+                    Druckansicht
+                </a>
+            </div>
+            <br>
+            <br>
+        </div>
+
+        <div><div class="col-lg-12">
+            <table class="table tableContractNotice tableNoBorder">
+                <tbody><tr class="tableNoticeHead">
+                    <td class="color-main" colspan="2">Vertragspartei und Dienstleister</td>
+                </tr>
+                <tr>
+                    <td colspan="2"></td>
+                </tr>
+                <tr>
+                    <td>Beschaffer</td><td>Offizielle Bezeichnung: DRV Bund Einkaufsmanagement Bauleistungen<br>				Identifikationsnummer: 992-80003DRVB2-14<br>				Internet-Adresse (URL): <a class="color-main" href="https://www.deutsche-rentenversicherung-bund.de/einkaufskoordination/NetServer/" target="_blank">https://www.deutsche-rentenversicherung-bund.de/einkaufskoordination/NetServer/</a>
+                    <br>				Postanschrift: Ruhrstraße 2<br>				Postleitzahl / Ort: 10704 Berlin<br>				NUTS-3-Code: DE300<br>				Land: Deutschland<br>				E-Mail: bauvergaben@drv-bund.de<br>				Telefon: +49 3086584679<br>				Fax: +49 3086584790<br>				Art des öffentlichen Auftraggebers: Körperschaften des öffentlichen Rechts auf Bundesebene<br>				Haupttätigkeiten des öffentlichen Auftraggebers: Sozialwesen</td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td><td>Federführendes Mitglied: Ja<br>				Zentrale Beschaffungsstelle, die öffentliche Aufträge oder Rahmenvereinbarungen im Zusammenhang mit für andere Beschaffer bestimmten Bauleistungen, Lieferungen oder Dienstleistungen vergibt/abschließt: Nein<br>				Zentrale Beschaffungsstelle, die für andere Beschaffer bestimmte Lieferungen und/oder Dienstleistungen erwirbt: Nein</td>
+                </tr>
+                </tbody></table>
+        </div><div class="col-lg-12">
+            <table class="table tableContractNotice tableNoBorder">
+                <tbody><tr class="tableNoticeHead">
+                    <td class="color-main" colspan="2">Verfahren</td>
+                </tr>
+                <tr>
+                    <td colspan="2"></td>
+                </tr>
+                <tr>
+                    <td>Zweck</td><td>
+                    &nbsp;
+                </td>
+                </tr>
+                <tr>
+                    <td>Rechtsgrundlage</td><td>Richtlinie 2014/24/EU</td>
+                </tr>
+                <tr>
+                    <td>Beschreibung</td><td>Interne Kennung: FV15-25-0161-10-05<br>					Titel: 75922 Fachplanungsleistungen Technische Ausrüstung, Klinik Lipperland<br>					Beschreibung: Reha-Zentrum Bad Salzuflen, Klinik Lipperland<br>75922 Fachplanungsleistungen Technische Ausrüstung<br>					Art des Auftrags: Dienstleistungen</td>
+                </tr>
+                <tr>
+                    <td>Umfang der Auftragsvergabe</td><td>
+                    &nbsp;
+                </td>
+                </tr>
+                <tr>
+                    <td>Hauptklassifizierung (CPV-Code)</td><td>
+                    &nbsp;
+                </td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td><td>CPV-Code Hauptteil: 71300000-1</td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td><td>
+                    &nbsp;
+                </td>
+                </tr>
+                <tr>
+                    <td>Angaben zum Erfüllungsort</td><td>
+                    <br>				Postleitzahl / Ort: 32105 Bad Salzuflen<br>				NUTS-3-Code: DEA45<br>				Land: Deutschland</td>
+                </tr>
+                <tr>
+                    <td>Bedingungen für die Einreichung eines Angebots</td><td>
+                    &nbsp;
+                </td>
+                </tr>
+                <tr>
+                    <td>Ausschlussgründe</td><td>
+                    <br>				Grund: Mit Insolvenz vergleichbares Verfahren<br>				Beschreibung: Es gelten die zwingenden bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB. Das Nichtvorliegen ist in der Regel durch Eigenerklärung zu belegen.<br>
+                    <br>				Grund: Bestechlichkeit, Vorteilsgewährung und Bestechung<br>				Beschreibung: Es gelten die zwingenden bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB. Das Nichtvorliegen ist in der Regel durch Eigenerklärung zu belegen.<br>
+                    <br>				Grund: Bildung krimineller Vereinigungen<br>				Beschreibung: Es gelten die zwingenden bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB. Das Nichtvorliegen ist in der Regel durch Eigenerklärung zu belegen.<br>
+                    <br>				Grund: Wettbewerbsbeschränkende Vereinbarungen<br>				Beschreibung: Es gelten die zwingenden bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB. Das Nichtvorliegen ist in der Regel durch Eigenerklärung zu belegen.<br>
+                    <br>				Grund: Verstöße gegen umweltrechtliche Verpflichtungen<br>				Beschreibung: Es gelten die zwingenden bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB. Das Nichtvorliegen ist in der Regel durch Eigenerklärung zu belegen.<br>
+                    <br>				Grund: Geldwäsche oder Terrorismusfinanzierung<br>				Beschreibung: Es gelten die zwingenden bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB. Das Nichtvorliegen ist in der Regel durch Eigenerklärung zu belegen.<br>
+                    <br>				Grund: Betrug oder Subventionsbetrug<br>				Beschreibung: Es gelten die zwingenden bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB. Das Nichtvorliegen ist in der Regel durch Eigenerklärung zu belegen.<br>
+                    <br>				Grund: Menschenhandel, Zwangsprostitution, Zwangsarbeit oder Ausbeutung<br>				Beschreibung: Es gelten die zwingenden bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB. Das Nichtvorliegen ist in der Regel durch Eigenerklärung zu belegen.<br>
+                    <br>				Grund: Zahlungsunfähigkeit<br>				Beschreibung: Es gelten die zwingenden bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB. Das Nichtvorliegen ist in der Regel durch Eigenerklärung zu belegen.<br>
+                    <br>				Grund: Verstöße gegen arbeitsrechtliche Verpflichtungen<br>				Beschreibung: Es gelten die zwingenden bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB. Das Nichtvorliegen ist in der Regel durch Eigenerklärung zu belegen.<br>
+                    <br>				Grund: Insolvenz<br>				Beschreibung: Es gelten die zwingenden bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB. Das Nichtvorliegen ist in der Regel durch Eigenerklärung zu belegen.<br>
+                    <br>				Grund: Täuschung oder unzulässige Beeinflussung des Vergabeverfahrens<br>				Beschreibung: Es gelten die zwingenden bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB. Das Nichtvorliegen ist in der Regel durch Eigenerklärung zu belegen.<br>
+                    <br>				Grund: Interessenkonflikt<br>				Beschreibung: Es gelten die zwingenden bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB. Das Nichtvorliegen ist in der Regel durch Eigenerklärung zu belegen.<br>
+                    <br>				Grund: Wettbewerbsverzerrung wegen Vorbefassung<br>				Beschreibung: Es gelten die zwingenden bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB. Das Nichtvorliegen ist in der Regel durch Eigenerklärung zu belegen.<br>
+                    <br>				Grund: Schwere Verfehlung<br>				Beschreibung: Es gelten die zwingenden bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB. Das Nichtvorliegen ist in der Regel durch Eigenerklärung zu belegen.<br>
+                    <br>				Grund: Mangelhafte Erfüllung eines früheren öffentlichen Auftrags<br>				Beschreibung: Es gelten die zwingenden bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB. Das Nichtvorliegen ist in der Regel durch Eigenerklärung zu belegen.<br>
+                    <br>				Grund: Verstöße gegen sozialrechtliche Verpflichtungen<br>				Beschreibung: Es gelten die zwingenden bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB. Das Nichtvorliegen ist in der Regel durch Eigenerklärung zu belegen.<br>
+                    <br>				Grund: Verstöße gegen Verpflichtungen zur Zahlung von Sozialversicherungsbeiträgen<br>				Beschreibung: Es gelten die zwingenden bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB. Das Nichtvorliegen ist in der Regel durch Eigenerklärung zu belegen.<br>
+                    <br>				Grund: Einstellung der beruflichen Tätigkeit<br>				Beschreibung: Es gelten die zwingenden bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB. Das Nichtvorliegen ist in der Regel durch Eigenerklärung zu belegen.<br>
+                    <br>				Grund: Verstöße gegen Verpflichtungen zur Zahlung von Steuern oder Abgaben<br>				Beschreibung: Es gelten die zwingenden bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB. Das Nichtvorliegen ist in der Regel durch Eigenerklärung zu belegen.<br>
+                    <br>				Grund: Bildung terroristischer Vereinigungen<br>				Beschreibung: Es gelten die zwingenden bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB. Das Nichtvorliegen ist in der Regel durch Eigenerklärung zu belegen.<br>
+                    <br>				Grund: Rein nationale Ausschlussgründe<br>				Beschreibung: Unzulässige Interessenwahrnehmung nach § 108f des Strafgesetzbuches (§ 123 Abs. 1 Nr. 7 GWB)<br>
+                </td>
+                </tr>
+                <tr>
+                    <td>Grenzübergreifende Rechtsvorschriften</td><td>
+                    &nbsp;
+                </td>
+                </tr>
+                <tr>
+                    <td>Verfahren</td><td>Verfahrensart: Offenes Verfahren </td>
+                </tr>
+                <tr>
+                    <td>Zusätzliche Informationen</td><td>Zusätzliche Informationen: Elektronische Kommunikation:<br>
+                    <br>1. Die Kommunikation im gesamten Verfahren erfolgt elektronisch über die Vergabeplattform der Deutschen Rentenversicherung Bund (DRV Bund).<br>Die Vergabeunterlagen sind von der Vergabeplattform rechtzeitig vor Ablauf der Abgabefrist herunterzuladen. Anfragen sind ausschließlich an die Vergabestelle über das Bietercockpit bis zum 08.05.2025 einzureichen. Die letzte<br>Beantwortung von Anfragen erfolgt bis sechs Kalendertage vor Ablauf der Angebotsfrist.<br>
+                    <br>HINWEIS: Die Vergabeunterlagen sind ohne Anmeldung zugänglich. Der Bieter muss sich selbst fortlaufend informieren, ob neue oder aktualisierte Dateien zum Download zur Verfügung stehen. Eine Anmeldung zur Teilnahme am Vergabeverfahren ist<br>erforderlich für Anfragen zu diesem Verfahren, Bereitstellung der Vergabeunterlagen in der Bietersoftware und Abgabe von Angeboten (ggf. unter vorheriger Registrierung der Unternehmerdaten über die Vergabeplattform).<br>
+                    <br>2. Die Kommunikation und die Abgabe von Angeboten inklusive aller Bestandteile und Nachweise sind in Deutsch abzugeben. Elektronische Angebote sind über die Vergabeplattform der DRV unter Nutzung der kostenlos bereitgestellten Bietersoftware "AI BIETERCOCKPIT" und gemäß den dortigen Bedingungen zu übermitteln. Dafür müssen sich die Bieter auf der Vergabeplattform der DRV-Bund<br>- unter Beachtung der dort hinterlegten "Registrierungsanleitung" mit ihren Unternehmerdaten einmalig registrieren und<br>- sich über die Bekanntmachung zur Teilnahme am Vergabeverfahren anmelden und<br>- unter Beachtung des "Benutzerhandbuches Bietercockpit" und unter Nutzung dieser Software elektronische Angebote erstellen und absenden.<br>Die Abgabe elektronischer Angebote kann erfolgen:<br>- elektronisch in Textform (ohne Signatur).<br>- elektronisch mit fortgeschrittener bzw. qualifizierter Signatur für eVergabe.<br>
+                    <br>3. Form und Inhalt der Angebote:<br>Es werden nur Angebote zugelassen, die elektronisch über die Vergabeplattform der Deutschen Rentenversicherung Bund unter Nutzung des dort abrufbaren Bietercockpits und den dort hinterlegten Nutzungsbedingungen übermittelt werden.<br>Den vorstehenden Anforderungen nicht entsprechende Angebote sind nicht zugelassen.<br>
+                    <br>Sämtliche Informationen zu Form und Inhalt der Angebote sind den Vergabeunterlagen, insbesondere den Bedingungen zur Angebotsabgabe und Auftragsvergabe, den Hinweisen zur elektronischen Abgabe sowie dem Aufforderungsschreiben zu entnehmen.<br>
+                    <br>4. Ortsbesichtigung<br>Die Bieter erhalten vor Abgabe des Angebots die Gelegenheit, sich vor Ort einen Eindruck von den Gegebenheiten des Standorts zu machen. Nähere Informationen können den Vergabeunterlagen entnommen werden.</td>
+                </tr>
+                </tbody></table>
+        </div><div class="col-lg-12">
+            <table class="table tableContractNotice tableNoBorder">
+                <tbody><tr class="tableNoticeHead">
+                    <td class="color-main" colspan="2">Beschaffungsinformationen (allgemein)</td>
+                </tr>
+                <tr>
+                    <td colspan="2"></td>
+                </tr>
+                <tr>
+                    <td>Vergabeverfahren</td><td>
+                    &nbsp;
+                </td>
+                </tr>
+                <tr>
+                    <td>Frühere Bekanntmachung zu diesem Verfahren (Vorinformation, ...)</td><td>
+                    &nbsp;
+                </td>
+                </tr>
+                <tr>
+                    <td>Bedingungen der Auktion</td><td>Es wird eine elektronische Auktion durchgeführt: Nein</td>
+                </tr>
+                <tr>
+                    <td>Auftragsvergabeverfahren</td><td>Rahmenvereinbarung geschlossen: Keine Rahmenvereinbarung</td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td><td>Angaben zum dynamischen Beschaffungssystem: Kein dynamisches Beschaffungssystem</td>
+                </tr>
+                <tr>
+                    <td>Bedingungen für die Einreichung eines Angebots</td><td>
+                    &nbsp;
+                </td>
+                </tr>
+                <tr>
+                    <td>Eignungskriterien</td><td>
+                    &nbsp;
+                </td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td><td>Eignung zur Berufsausübung<br>				Beschreibung: Allgemein:<br>Die unter "Eignung zur Berufsausübung", "Wirtschaftliche und finanzielle Leistungsfähigkeit" und "Technische und berufliche Leistungsfähigkeit" genannten Angaben, Erklärungen und Nachweise sind im Falle einer Bietergemeinschaft oder bei<br>Einbindung eines eignungsleihenden Unternehmens / Unterauftragnehmer von jedem Mitglied der Bietergemeinschaft oder jedem eignungsleihenden Unternehmen / Unterauftragnehmer in dem Umfang vorzulegen, wie sie für den Bieter vorzulegen wären. Dafür sind - soweit vorgesehen - die vorgegebenen Formblätter zu verwenden.<br>
+                    <br>Der Bieter hat mit dem Angebot folgende Angaben, Erklärungen und Nachweise zur vorzulegen:<br>a) Angaben zum Unternehmen (Name, Rechtsform, Anschrift, Telefon, Telefax, E-Mail-Adresse, bevollmächtigter Vertreter, Ansprechpartner) mit Erklärung der Befähigung zur Berufsausübung durch Eintragung in das Handelsregister /<br>Berufsregister der Bundesrepublik Deutschland bzw. vergleichbarem Register des jeweiligen Landes (§ 44 VgV). Als im Handelsregister nichteingetragener bzw. ausländischer Bieter ist es gestattet, vergleichbare gleichwertige Eintragungen<br>zu benennen; die Gleichwertigkeit ist auf Verlangen nachzuweisen.<br>
+                    <br>b) Zugelassen werden nur Bieter, die gemäß Rechtsvorschriften ihres Heimatstaates als Architekt bzw. Ingenieur tätig und zum Führen dieser Berufsbezeichnung berechtigt sind, ggf. ist der Nachweis nach Richtlinie 2005/36/EG über die Anerkennung von Berufsqualifikationen zu führen (§ 75 Abs. 1 und 2 VgV).<br>Juristische Personen erfüllen die Voraussetzungen zur Erbringung der Leistungen und sind als Auftragnehmer zugelassen, sofern deren satzungsgemäßer Geschäftszweck<br>auf Leistungen der hier gegebenen Art ausgerichtet ist und sie einen verantwortlichen Berufsangehörigen im vorstehenden Sinne benennen (§ 75 Abs. 3 VgV).<br>Hierüber ist von dem Bieter eine entsprechende Erklärung abzugeben.<br>
+                    <br>c) Erklärung über das Nichtvorliegen von Ausschlussgründen nach §§ 123, 124 GWB, § 21 AEntG, § 98c AufenthG, § 19 MiLoG, § 21SchwarzArbG.<br>
+                    <br>d) Eigenerklärung zum wettbewerbskonformen Verhalten<br>
+                    <br>e) Anerkennung der Antikorruptionsklausel der DRV Bund<br>
+                    <br>f) Eigenerklärung zur Umsetzung von Artikel 5k Absatz 3 der Verordnung (EU) 2022/576 des Rates vom 8. April 2022<br>
+                    <br>g) Bietergemeinschaften haben eine Erklärung vorzulegen über die Bildung der Bietergemeinschaft (im Auftragsfall einer Arbeitsgemeinschaft) und die gesamtschuldnerische Haftung aller Mitglieder der Bietergemeinschaft. Sie benennen einen bevollmächtigten Vertreter.<br>
+                    <br>h) Sofern der Bieter zum Nachweis seiner Eignung die Kapazitäten eines anderen Unternehmens in Anspruch nehmen will (Eignungsleihe) bzw. andere Unternehmen als Unterauftragnehmer für die Auftragsausführung einsetzen will, muss er den Namen dieses anderen Unternehmens benennen und angeben, wofür er die Kapazitäten des anderen Unternehmens in Anspruch nehmen will. Die Eignung dieses<br>anderen Unternehmens ist mit dem Angebot nachzuweisen (siehe oben). Des Weiteren ist eine Verpflichtungserklärung dieses Unternehmens vorzulegen, dass ihm die für den Auftrag erforderlichen Mittel tatsächlich zur Verfügung gestellt werden.<br>				Wirtschaftliche und finanzielle Leistungsfähigkeit<br>				Beschreibung: Der Bieter hat mit dem Angebot Folgendes vorzulegen:<br>a) Erklärung über den Gesamtumsatz in den letzten drei abgeschlossenen Geschäftsjahren.<br>
+                    <br>Mindeststandards Gesamtumsatz:<br>Der Umsatz der letzten 3 Geschäftsjahre darf 4,0 Mio. Euro pro Jahr nicht unterschreiten.<br>
+                    <br>b) Erklärung über den Abschluss einer Berufshaftpflichtversicherung im Auftragsfall bei einem in der EU zugelassenen Versicherungsunternehmen für Personenschäden einerseits sowie für Sach-, Vermögens- und sonstige Schäden andererseits.<br>
+                    <br>Mindeststandards Berufshaftpflicht:<br>Für Personenschäden müssen die Deckungssummen dieser Versicherung jeweils pro Verstoß mindestens EUR 5 Mio. (2fach maximiert) betragen. Für Sach- und Vermögensschäden müssen die Deckungssummen dieser Versicherung jeweils pro<br>Verstoß ebenfalls mindestens EUR 5 Mio. (2fach maximiert) betragen.<br>				Technische und berufliche Leistungsfähigkeit<br>				Beschreibung: Der Bieter hat mit dem Angebot folgende Angaben, Erklärungen und Nachweise vorzulegen:<br>
+                    <br>a) Unternehmensreferenzen<br>Für die Eignungsprüfung hat der Bieter mit dem Angebot anhand von<br>mindestens 2 Unternehmensreferenzen aus den letzten 10 Jahren seine<br>Erfahrung mit Fachplanungsleistungen Technische Ausrüstung für mind. 1<br>Neubauprojekt (auch als Mischprojekt mit klassischer Bauweise und<br>Modulbauweise) und 1 Projekt für Sanierungs-/Modernisierungsmaßnahmen<br>von Bestandsbauten unter Berücksichtigung der nachfolgend benannten<br>Mindeststandards nachzuweisen. Kombinationsreferenzen (Neubau und<br>Sanierung) sind möglich.<br>
+                    <br>Es wurden<br>- allgemeine Mindeststandards, die mit jeder Unternehmensreferenz nachgewiesen werden müssen und<br>- weitere Mindeststandards, die kumuliert über die mindestens 2 Referenzen sowie Mindeststandards, die über mindestens 1 Referenz nachgewiesen werden müssen,<br>aufgestellt.<br>
+                    <br>Die Mindeststandards sind - im Einzelnen dem Formblatt "A-5_Anforderung_Angaben_Unternehmensreferenzen_TA" - den Vergabeunterlagen zu entnehmen, welches ausgefüllt nebst Referenzbeschreibungen (nach eigenem Format) vorzulegen ist.<br>
+                    <br>Sofern die vom Bieter benannten Unternehmensreferenzen die Mindeststandards nicht erfüllen, wird das Angebot ausgeschlossen.<br>
+                    <br>b) Erklärung über das jährliche Mittel der Beschäftigten in den letzten drei Geschäftsjahren<br>
+                    <br>Mindeststandard Beschäftigtenzahl:<br>Die durchschnittliche Anzahl der beschäftigten Ingenieure (Dipl.-Ing. / Master / Bachelor) pro Jahr darf in den letzten drei Geschäftsjahren die Anzahl von 5 Ingenieuren nicht unterschreiten.<br>
+                    <br>c) Erklärung zur Berufserfahrung im Bereich der Fachplanung Technische Ausrüstung<br>
+                    <br>Mindeststandard projektleitende Person:<br>Mindestens eine im Unternehmen beschäftigte Person verfügt im Bereich der Technischen Gebäudeausrüstung über<br>- eine Berufserfahrung nach Erwerb des Ausbildungsabschlusses als Ingenieur (Dipl.-Ing. /Master /Bachelor) von mindestens 8 Jahren;<br>- hat die Funktion einer (stellv.) Projektleitung für mindestens 5 Jahre ausgeübt und<br>- hat Projekterfahrung mit Neubau- und Modernisierungsmaßnahmen in projektleitender Funktion.<br>
+                    <br>Mit dem Angebot ist die projektleitende Person unter Angabe der Qualifikation im Bereich der Technischen Gebäudeausrüstung lediglich zu benennen.<br>Der Auftraggeber behält sich jedoch vor, entsprechende Nachweise anzufordern.</td>
+                </tr>
+                <tr>
+                    <td>Weitere Bedingungen zur Qualifizierung</td><td>Nachforderung von Unterlagen: Eine Nachforderung von Unterlagen ist teilweise ausgeschlossen.<br>					Zusätzliche Informationen: Die Nachforderung von leistungsbezogenen Unterlagen, die die Wirtschaftlichkeitsbewertung der Angebote anhand der Zuschlagskriterien betreffen, ist ausgeschlossen.</td>
+                </tr>
+                <tr>
+                    <td>Vorbehaltene Auftragsvergabe</td><td>Die Teilnahme ist Organisationen vorbehalten, die zur Erfüllung von Gemeinwohlaufgaben tätig werden und andere einschlägige Bestimmungen der Rechtsvorschriften erfüllen: Nein<br>				Die Teilnahme ist geschützten Werkstätten und Wirtschaftsteilnehmern, die auf die soziale und berufliche Integration von Menschen mit Behinderungen oder benachteiligten Personen abzielen, vorbehalten: Nein</td>
+                </tr>
+                <tr>
+                    <td>Nebenangebote</td><td>Nebenangebote sind zulässig: Nein</td>
+                </tr>
+                <tr>
+                    <td>Regelmäßig wiederkehrende Leistungen</td><td>
+                    &nbsp;
+                </td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td><td>Auftrag über regelmäßig wiederkehrende Leistungen: Nein<br>				Die Bieter können mehrere Angebote einreichen: Nein</td>
+                </tr>
+                <tr>
+                    <td>Anforderungen für die Ausführung des Auftrags</td><td>
+                    &nbsp;
+                </td>
+                </tr>
+                <tr>
+                    <td>Reservierte Vertragsdurchführung</td><td>Die Auftragsausführung ist bestimmten Auftragnehmern vorbehalten: Nein</td>
+                </tr>
+                <tr>
+                    <td>Leistungsbedingungen</td><td>Bedingungen für die Ausführung des Auftrags: </td>
+                </tr>
+                <tr>
+                    <td>Elektronische Rechnungsstellung</td><td>Elektronische Rechnungsstellung: Ja</td>
+                </tr>
+                <tr>
+                    <td>Anforderungen</td><td>Die Namen und beruflichen Qualifikationen des zur Auftragsausführung eingesetzten Personals sind anzugeben: Erforderlich für das Angebot</td>
+                </tr>
+                <tr>
+                    <td>Verfahren nach der Vergabe</td><td>Aufträge werden elektronisch erteilt: Ja<br>				Zahlungen werden elektronisch geleistet: Ja</td>
+                </tr>
+                <tr>
+                    <td>Organisation, die Angebote entgegennimmt</td><td>folgende Anschrift:<br>				Offizielle Bezeichnung: Vergabeplattform der Deutschen Rentenversicherung Bund <br>				Identifikationsnummer: 992-80003DRVB2- 14<br>				Internet-Adresse (URL): <a class="color-main" href="https://www.deutsche-rentenversicherung-bund.de/einkaufskoordination/NetServer/" target="_blank">https://www.deutsche-rentenversicherung-bund.de/einkaufskoordination/NetServer/</a>
+                    <br>				Postanschrift: <a class="color-main" href="https://www.deutsche-rentenversicherung-bund.de/einkaufskoordination/NetServer/index.jsp" target="_blank">https://www.deutsche-rentenversicherung-bund.de/einkaufskoordination/NetServer/index.jsp</a>
+                    <br>				Postleitzahl / Ort: 10709 Berlin<br>				NUTS-3-Code: DE300<br>				Land: Deutschland<br>				E-Mail: bauvergaben@drv-bund.de<br>				Telefon: +49 3086584679</td>
+                </tr>
+                <tr>
+                    <td>Informationen zur Einreichung</td><td>
+                    &nbsp;
+                </td>
+                </tr>
+                <tr>
+                    <td>Fristen I</td><td>
+                    &nbsp;
+                </td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td><td>Frist für den Eingang der Angebote: 22.05.2025 10:00 Uhr</td>
+                </tr>
+                <tr>
+                    <td>Bindefrist</td><td>
+                    &nbsp;
+                </td>
+                </tr>
+                <tr>
+                    <td>Sprachen der Einreichung</td><td>Sprachen, in denen Angebote oder Teilnahmeanträge eingereicht werden können: DEU</td>
+                </tr>
+                <tr>
+                    <td>Öffnung der Angebote</td><td>
+                    &nbsp;
+                </td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td><td>
+                    &nbsp;
+                </td>
+                </tr>
+                <tr>
+                    <td>Einreichungsmethode</td><td>Elektronische Einreichung: Ja<br>				Adresse für die Einreichung (URL): <a class="color-main" href="https://www.deutsche-rentenversicherung-bund.de/einkaufskoordination/NetServer/" target="_blank">https://www.deutsche-rentenversicherung-bund.de/einkaufskoordination/NetServer/</a></td>
+                </tr>
+                <tr>
+                    <td>Auftragsunterlagen</td><td>Die Auftragsunterlagen stehen für einen uneingeschränkten und vollständigen direkten Zugang gebührenfrei zur Verfügung unter (URL): <a class="color-main" href="https://www.deutsche-rentenversicherung-bund.de/einkaufskoordination/NetServer/PublicationControllerServlet?function=Detail&amp;TWOID=54321-Tender-195a3bd1c8c-3222621e66032ec6&amp;PublicationType=0" target="_blank">https://www.deutsche-rentenversicherung-bund.de/einkaufskoordination/NetServer/PublicationControllerServlet?function=Detail&amp;TWOID=54321-Tender-195a3bd1c8c-3222621e66032ec6&amp;PublicationType=0</a>
+                    <br>				Verbindliche Sprachfassung der Vergabeunterlagen: DEU</td>
+                </tr>
+                <tr>
+                    <td>Ad-hoc-Kommunikationskanal</td><td>
+                    &nbsp;
+                </td>
+                </tr>
+                <tr>
+                    <td>Organisation, die zusätzliche Informationen bereitstellt</td><td>oben genannte Kontaktstelle</td>
+                </tr>
+                <tr>
+                    <td>Überprüfung</td><td>
+                    &nbsp;
+                </td>
+                </tr>
+                <tr>
+                    <td>Fristen für Nachprüfungsverfahren</td><td>Informationen über die Überprüfungsfristen: Verstöße gegen Vergabevorschriften, die aufgrund der Bekanntmachung oder in den Vergabeunterlagen erkennbar sind, sind spätestens bis zum Ablauf der Frist zur Bewerbung oder zur Angebotsabgabe gegenüber dem Auftraggeber zu rügen. Im Übrigen sind Verstöße gegen Vergabevorschriften innerhalb einer Frist von zehn Kalendertagen nach Kenntnis gegenüber dem Auftraggeber zu rügen. Ein Nachprüfungsantrag ist innerhalb von 15 Kalendertagen nach Eingang der Mitteilung des Auftraggebers, einer Rüge nicht abhelfen zu wollen, bei der zuständigen Vergabekammer zu stellen (§ 160 Gesetz gegen Wettbewerbsbeschränkungen (GWB)).</td>
+                </tr>
+                <tr>
+                    <td>Stelle für Rechtsbehelfs-/Nachprüfungsverfahren</td><td>Offizielle Bezeichnung: Bundeskartellamt, Vergabekammer des Bundes<br>				Identifikationsnummer: entfällt<br>				Postanschrift: Kaiser-Friedrich-Str. 16<br>				Postleitzahl / Ort: 53113 Bonn<br>				NUTS-3-Code: DEA22<br>				Land: Deutschland<br>				E-Mail: info@bundeskartellamt.bund.de<br>				Telefon: +49 22894990<br>				Fax.: +49 2289499163</td>
+                </tr>
+                <tr>
+                    <td>Organisation, die Nachprüfungsinformationen bereitstellt</td><td>Offizielle Bezeichnung: DRV Bund Einkaufsmanagement Bauleistungen<br>				Identifikationsnummer: 992- 80003DRVB2-14<br>				Postleitzahl / Ort: 10704 Berlin<br>				NUTS-3-Code: DE300<br>				Land: Deutschland<br>				E-Mail: bauvergaben@drv-bund.de<br>				Telefon: +49 3086584679</td>
+                </tr>
+                <tr>
+                    <td>Schlichtungsstelle</td><td>
+                    &nbsp;
+                </td>
+                </tr>
+                </tbody></table>
+        </div><div class="col-lg-12">
+            <table class="table tableContractNotice tableNoBorder">
+                <tbody><tr class="tableNoticeHead">
+                    <td class="color-main" colspan="2">Beschaffungsinformationen (speziell)</td>
+                </tr>
+                <tr>
+                    <td colspan="2"></td>
+                </tr>
+                <tr>
+                    <td>Vergabeverfahren</td><td>
+                    &nbsp;
+                </td>
+                </tr>
+                <tr>
+                    <td>Beschreibung der Beschaffung</td><td>Beschreibung: Gegenstand des zu vergebenden Auftrags sind die Fachplanungsleistungen der Technischen Ausrüstung in den Anlagengruppen (ALG) 1 bis 8 nach der Honorarordnung für Architekten und Ingenieure (HOAI) für die Sanierung und Modernisierung des Bestandes sowie für den Erweiterungsneubau am Standort Reha-Zentrum Bad Salzuflen, Klinik Lipperland.<br>
+                    <br>Die Beauftragung der Leistungen ist stufenweise geplant. <br>Die Vertragsleistung umfasst je Anlagengruppe zunächst die Grundleistungen sowie teilweise Besonderen Leistungen der Leistungsphasen (LP) 1 und 2. Optional kann der Auftragnehmer mit nachfolgenden Leistungen ganz oder teilweise beauftragt werden:<br>
+                    <br>Für die Sanierung / Modernisierung Bestand:<br>- Grundleistungen der LP 3 bis 9<br>- teilweise Besondere Leistungen der LP 1 bis 2<br>- Besondere Leistungen der LP 3 bis 8.<br>
+                    <br>Für den Erweiterungsneubau:<br>- weitere Besondere Leistungen der LP 1 und 2<br>- Aufstellen einer funktionalen Leistungsbeschreibung (FLB) TA auf Basis der LP 2<br>- Prüfen und Werten der Angebote der funktionalen Leistungsbeschreibung (TA)<br>
+                    <br>Es besteht kein Rechtsanspruch auf Übertragung dieser Leistungen.<br>
+                    <br>Weitere Inhalte und Umfang zu den Leistungen ergeben sich im<br>Einzelnen aus dem Vertrag nebst seinen Anlagen, insbesondere der Vertragsanlage "V-Anlage-01_Projektbeschreibung_und_Aufgabenbeschreibung" sowie der Anlage "V-Anlage-02_75922_Bepreiste Leistungsbeschreibung_Leseexemplar".</td>
+                </tr>
+                <tr>
+                    <td>Umfang der Auftragsvergabe</td><td>Diese Auftragsvergabe ist besonders auch geeignet für kleinste, kleine und mittlere Unternehmen (KMU): Ja<br>					Besonders auch geeignet für Freiberufler</td>
+                </tr>
+                <tr>
+                    <td>Art der Auftragsvergabe</td><td>Art der strategischen Beschaffung: </td>
+                </tr>
+                <tr>
+                    <td>Geschätzte Laufzeit</td><td>
+                    <br>
+                    <br>				Datum des Beginns: 01.09.2025 Enddatum der Laufzeit: 17.07.2026</td>
+                </tr>
+                <tr>
+                    <td>Verlängerungen und Optionen</td><td>Beschreibung der Optionen: Optional kann der Auftragnehmer mit den Leistungen gemäß "Beschreibung der Beschaffung" beauftragt werden. Bei Abruf der Optionen gelten weitere Fristen gemäß Vertrag.</td>
+                </tr>
+                <tr>
+                    <td>Übereinkommen über das öffentliche Beschaffungswesen</td><td>Die Beschaffung fällt unter das Übereinkommen über das öffentliche Beschaffungswesen: Ja</td>
+                </tr>
+                <tr>
+                    <td>Verwendung von EU-Mitteln</td><td>Die Auftragsvergabe wird zumindest teilweise aus Mitteln der Europäischen Union finanziert: Nein</td>
+                </tr>
+                <tr>
+                    <td>Zusätzliche Informationen</td><td>
+                    &nbsp;
+                </td>
+                </tr>
+                <tr>
+                    <td>Bedingungen für die Einreichung eines Angebots</td><td>
+                    &nbsp;
+                </td>
+                </tr>
+                <tr>
+                    <td>Zuschlagskriterien</td><td>Qualitätskriterium<br>				Planungskonzept / Projektorganisation, Beschreibung: Planungskonzept / Projektorganisation, Gewichtung: 45,00<br>
+                    <br>				Preis, Beschreibung: Preis, Gewichtung: 55,00</td>
+                </tr>
+                <tr>
+                    <td>Elektronischer Katalog</td><td>Elektronischer Katalog: Nein</td>
+                </tr>
+                <tr>
+                    <td>Informationen zur Richtlinie über saubere Fahrzeuge</td><td>Die Auftragsvergabe fällt in den Anwendungsbereich der Richtlinie 2009/33/EG des Europäischen Parlaments und des Rates (Richtlinie zur Förderung sauberer Fahrzeuge - CVD): Nein</td>
+                </tr>
+                </tbody></table>
+        </div>
+        </div>
+
+
+
+        <br>
+        <br>
+    </div>
+</div>

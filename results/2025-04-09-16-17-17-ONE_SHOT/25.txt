@@ -1,0 +1,1126 @@
+##Aufgabenbeschreibung##
+Du sollst Entitäten in dieser öffentlichen Ausschreibung erkennen:
+##Definitionen der Entitäten##
+Folgende Entitäten sollst du erkennen:
+1. Veröffentlichungsdatum (Synonyme: Datum der Veröffentlichung, Bekanntmachung): kann in verschiedenen Formaten vorliegen (bspw. 23.01.2025, 23. Januar 2025).
+2. Erfüllungsort (Synonyme: Ort der Ausführung, Leistungsort, Ort der Leistungserbringung): hierbei kann es sich um eine vollständige Adresse mit Straße, Hausnummer, Postleitzahl und Stadt, als auch um eine einfache Ortsangabe in Form einer Stadt handeln.
+3. Vergabestelle (Synonyme: Auftraggeber, Beschaffer): die liegt häufig als verschachteltes Objekt vor (bspw. "Bundesministerium für Verkehr und digitale Infrastruktur").
+4. Geschäftszeichen (Synonyme: Vergabenummer, Identifikationsnummer, Vergabenr., Projektnummer, Interne Kennung): setzt sich typischerweise aus der Behörde oder Institution, dem Jahr der Veröffentlichung, einer fortlaufenden Ausschreibungsnummer und gegebenenfalls der Art der Ausschreibung zusammen (z. B. 0362/25-B-Ö-21).
+##Aufgabenschwerpunkte##
+Bevor du die Lösung abgibst, überprüfe bei jeder Entität, ob du sie wirklich 
+richtig und vollständig identifiziert hast. Entitäten sind nur dann richtig erkannt, 
+wenn sie vollständig und korrekt erkannt wurden. Entitäten können diskontinuierlich oder geschachtelte Objekte, 
+wie bspw. "Bundesministreium für Verkehr und digitale Infrastruktur", sein.
+##Übungsbeispiel##
+<div id="content" class="no-bg">
+  <main class="container">
+    <div>
+      <h2>Ausschreibungsdetails</h2>
+    </div>
+    <div class="distance"></div>
+    <form class="form-horizontal">
+      <div class="procedure-infos">
+        <section class="clearfix">
+          <h4>1305_Neubau Feuerwehrgerätehaus Gutendorf, Los 16 Erschließung und Freianlagen</h4>
+          <div class="ev-tooltip">
+            <button
+              class="ev-tooltip-toggle"
+              type="button"
+              data-toggle="popover"
+              name="headerSection:contentLinkTenderingProcedureDetails:tooltipContainer:toggleButton"
+              id="id3f8"
+              aria-label="Zusatzinformation"
+            >
+              <span class="ev-tooltip-icon glyphicon glyphicon-info-sign" aria-hidden="true"></span>
+            </button>
+            <div class="ev-tooltip-content">
+              <div class="ev-tooltip-body wiki-markup-container">
+                <p>Zur Einhaltung der Teilnahmefrist wählen Sie vor deren Ablauf 'Teilnahme aktivieren' und laden mit Hilfe des AnA-Web die
+                  Vergabeunterlagen herunter.</p>
+              </div>
+              <span class="ev-tooltip-footer">
+                    <a href="https://www.evergabe-online.info/e-Vergabe/DE/3%20Unternehmen/BereitsRegistriert/node_BereitsRegistriert.html">Mehr lesen</a>
+                </span>
+            </div>
+          </div>
+        </section>
+        <div class="row procedure-info">
+          <div class="col-xs-12 col-sm-7">
+            <div class="form-group" id="id3f9">
+              <label class="col-xs-12 col-sm-6 col-md-5 control-label">
+                <span>Veröffentlichungsdatum:</span>
+              </label>
+              <div class="col-xs-12 col-sm-6 col-md-7">
+                <p class="form-control-static">
+                  @@28.03.2025** (Veröffentlichungsdatum)
+                </p>
+              </div>
+            </div>
+            <div class="form-group" id="id3fa">
+              <label class="col-xs-12 col-sm-6 col-md-5 control-label">
+                <span>Abgabefrist Angebot:</span>
+              </label>
+              <div class="col-xs-12 col-sm-6 col-md-7">
+                <p class="form-control-static">23.04.2025 15:00</p>
+              </div>
+            </div>
+            <div class="form-group" id="id3fb">
+              <label class="col-xs-12 col-sm-6 col-md-5 control-label">
+                Geschäftszeichen:
+              </label>
+              <div class="col-xs-12 col-sm-6 col-md-7">
+                <p class="form-control-static">@@ba-1305-16-2024** (Geschäftszeichen)</p>
+              </div>
+            </div>
+            <div class="form-group" id="id3fc">
+              <label class="col-xs-12 col-sm-6 col-md-5 control-label">
+                Vergabestelle:
+              </label>
+              <div class="col-xs-12 col-sm-6 col-md-7">
+                <p class="form-control-static">Thüringen: @@Stadtverwaltung Bad Berka** (Vergabestelle)</p>
+              </div>
+            </div>
+            <div class="form-group" id="id3fd">
+              <label class="col-xs-12 col-sm-6 col-md-5 control-label">
+                Letzte Änderung:
+              </label>
+              <div class="col-xs-12 col-sm-6 col-md-7">
+                <p class="form-control-static">28.03.2025 18:17</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-5">
+            <div class="bordered-section">
+              <h3 class="bordered-section-title">
+                Meine e-Vergabe
+              </h3>
+              <div class="bordered-section-body">
+                <ul class="link-box list-group">
+                  <li class="list-group-item">
+                    <a
+                      class="icon"
+                      id="id3e6"
+                      href="./tenderdetails.html?13-1.-headerSection-notLoggedInSubscribeButtonContainer-notLoggedInSubscribeButton&amp;id=762112"
+                      title="Teilnahme aktivieren"
+                      rel="nofollow"
+                    >
+                      <i class="fa fa-arrow-circle-o-right"></i>
+                      <span>Teilnahme aktivieren</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
+    <hr>
+    <div>
+      <div class="distance-higher"></div>
+      <div id="htmlDocument">
+        <div class="procedure-details nat-form">
+          <div class="procedure-header">
+            <div class="footer-content"><strong>DE</strong> Formular 121&nbsp;— Auftragsbekanntmachung
+            </div>
+            <h2>Auftragsbekanntmachung</h2>
+            <h3>Öffentliche Ausschreibung nach VOB/A</h3>
+            <p>Formular 121 - VHB-Bund - Ausgabe 2019</p>
+          </div>
+          <div class="section">
+            <div class="chapter">
+              <h4>
+                <div class="chapter-number">
+                  a)
+                </div>
+                <div class="chapter-headline">
+                  Öffentlicher Auftraggeber (Vergabestelle)
+                </div>
+              </h4>
+              <div class="chapter-content">
+                <div><span class="content-left">Name:</span> <span class="content-right">@@Stadtverwaltung Bad Berka</span>
+                </div>
+                <div><span class="content-left">Straße, Hausnummer:</span> <span class="content-right">Am Markt 10</span>
+                </div>
+                <div><span class="content-left">Postleitzahl (PLZ):</span> <span class="content-right">99438</span>
+                </div>
+                <div><span class="content-left">Ort:</span> <span class="content-right">Bad Berka</span>
+                </div>
+                <div><span class="content-left">Telefon:</span> <span class="content-right">+49 36458 55118</span>
+                </div>
+                <div><span class="content-left">E-Mail:</span> <span class="content-right"> <a href="mailto:vergabestelle@bad-berka.de">vergabestelle@bad
+                  -berka.de** (Vergabestelle)</a> </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="section">
+            <div class="chapter">
+              <h4>
+                <div class="chapter-number">
+                  b)
+                </div>
+                <div class="chapter-headline">
+                  Verfahrensart „Öffentliche Ausschreibung nach VOB/A“
+                </div>
+              </h4>
+              <div class="chapter-content">
+                <div><span class="content-left"> Geschäftszeichen: </span> <span class="content-right">@@ba-1305-16-2024** (Geschäftszeichen)</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="section">
+            <div class="chapter">
+              <h4>
+                <div class="chapter-number">
+                  c)
+                </div>
+                <div class="chapter-headline">
+                  Angaben zum elektronischen Vergabeverfahren und zur Ver- und Entschlüsselung der Unterlagen
+                </div>
+              </h4>
+              <div class="chapter-content">
+                <div class="chapter no-chapter-number">
+                  <h4>
+                    <div class="chapter-headline">
+                      Zugelassene Angebotsabgabe
+                    </div>
+                  </h4>
+                  <div class="chapter-content">
+                    <ul class="bullet-list">
+                      <li> elektronisch
+                        <ul class="bullet-list bullet-list-level">
+                          <li>ohne elektronische Signatur (Textform)</li>
+                          <li>mit fortgeschrittener elektronischer Signatur / fortgeschrittenem elektronischen Siegel</li>
+                          <li>mit qualifizierter elektronischer Signatur / qualifiziertem elektronischen Siegel</li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="section">
+            <div class="chapter">
+              <h4>
+                <div class="chapter-number">
+                  d)
+                </div>
+                <div class="chapter-headline">
+                  Art des Auftrags
+                </div>
+              </h4>
+              <div class="chapter-content">
+                Ausführung von Bauleistungen
+              </div>
+            </div>
+          </div>
+          <div class="section">
+            <div class="chapter">
+              <h4>
+                <div class="chapter-number">
+                  e)
+                </div>
+                <div class="chapter-headline">
+                  Ort der Ausführung
+                </div>
+              </h4>
+              <div class="chapter-content">
+                @@99438 Bad Berka, Ortsteil Gutendorf** (Erfüllungsort)
+                <br>
+              </div>
+            </div>
+          </div>
+          <div class="section">
+            <div class="chapter">
+              <h4>
+                <div class="chapter-number">
+                  f)
+                </div>
+                <div class="chapter-headline">
+                  Art und Umfang der Leistung, ggf. aufgeteilt nach Losen
+                </div>
+              </h4>
+              <div class="chapter-content">
+                1305_Neubau Feuerwehrgerätehaus Gutendorf, Los 16 Erschließung und Freianlagen
+                <br> .
+                <br> Titel Erschließung
+                <br> - Abwasserkanal: ca. 93 m Kanal DN 160 PP; ca. 51 m Regenwasserkanal DN 250 PP; ca. 22 m Regenwasserkanal DN 1000 Sb; 4
+                St Schächte DN 1000 Sb; 2 St Schächte DN 1500 Sb
+                <br> - Trinkwasserleitung: ca. 106 m Druckrohr HDPE 40 x 3,7; 1 St Wasserzählerschacht; ca. 32 m Erd- und Tiefbau für
+                Hausanschlussleitung
+                <br> - Straßenbau: ca. 340 m2 Asphaltdeck- u. Tragschicht; ca. 85 m2 Pflasterarbeiten; ca. 150 m Borde; ca. 100 m
+                Kabelleerrohr HDPE 110
+                <br> einschl. Erdbau
+                <br> .
+                <br> Titel Freianlagen
+                <br> ca. 120,00 m² Schotterrasen-Parkfläche inkl. Unterbau N2, ca. 200 m Bordstein, Betonbett, DIT, HB 150/ 220-300 mm;
+                200,00 m² Pflasterbelag Verkehrsfläche Bk 0,3, 250/250/80 mm,
+                <br> Halbverband, N2, ungebundene Bauweise; 150,00 m² Wasserdurchlässiger Asphalt (Dränasphalt), PA 16 TD WDA; 105,00 m²
+                Pflasterbelag Gehwege 300/300/100 mm, in Reihen,
+                <br> Halbverband, N1, ungebundene Bauweise; 215,00 m² Pflasterbelag Verkehrsfläche Bk 3,2, 150/300/100 mm, Halbverband, N3,
+                ungebundene Bauweise; 15,00 m² Sitzmauer 30 m lang, 0,5 cm hoch, Naturstein bauseits lagernd errichten inkl. Fundament;
+                11,500 m Kastenrinne, Beton/Stahl, NW 200 AS mit Abdeckrost, Guss, Klasse E, Breite 300 mm; 200 m³ Geländemodellierung,
+                nichtbindiger Boden, verdichten DPr 97 %; 400 m² Rasenansaat, Landschaftsrasen/Kräuter, 20 g/m² inkl. Fertigstellungspflege;
+                10 St Baum- und Solitärpflanzung einschl. aller erford. Vorarbeiten und Fertigstellungspflege
+                <br>
+              </div>
+            </div>
+          </div>
+          <div class="section">
+            <div class="chapter">
+              <h4>
+                <div class="chapter-number">
+                  h)
+                </div>
+                <div class="chapter-headline">
+                  Losweise Vergabe
+                </div>
+              </h4>
+              <div class="chapter-content">
+                Nein
+              </div>
+            </div>
+          </div>
+          <div class="section">
+            <div class="chapter">
+              <h4>
+                <div class="chapter-number">
+                  i)
+                </div>
+                <div class="chapter-headline">
+                  Ausführungsfristen
+                </div>
+              </h4>
+              <div class="chapter-content">
+                <div class="chapter level-two no-chapter-number">
+                  <div class="chapter-headline">
+                    Beginn der Ausführung
+                  </div>
+                  <div class="chapter-content">
+                    03.06.2025
+                  </div>
+                </div>
+                <div class="chapter level-two no-chapter-number">
+                  <div class="chapter-headline">
+                    Fertigstellung oder Dauer der Leistungen
+                  </div>
+                  <div class="chapter-content">
+                    30.03.2026
+                  </div>
+                </div>
+                <div class="chapter level-two no-chapter-number">
+                  <div class="chapter-headline">
+                    Weitere Fristen
+                  </div>
+                  <div class="chapter-content">
+                    Fertigstellung Erschließungsarbeiten bis 30.09.2025
+                    <br> Fertigstellung Freianlagen ohne Pflanzarbeiten bis 19.12.2025
+                    <br> Fertigstellung Pflanzarbeiten bis 30.03.2026
+                    <br>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="section">
+            <div class="chapter">
+              <h4>
+                <div class="chapter-number">
+                  j)
+                </div>
+                <div class="chapter-headline">
+                  Nebenangebote
+                </div>
+              </h4>
+              <div class="chapter-content">
+                nur in Verbindung mit einem Hauptangebot zugelassen
+              </div>
+            </div>
+          </div>
+          <div class="section">
+            <div class="chapter">
+              <h4>
+                <div class="chapter-number">
+                  k)
+                </div>
+                <div class="chapter-headline">
+                  Mehrere Hauptangebote
+                </div>
+              </h4>
+              <div class="chapter-content">
+                nicht zugelassen
+              </div>
+            </div>
+          </div>
+          <div class="section">
+            <div class="chapter">
+              <h4>
+                <div class="chapter-number">
+                  l)
+                </div>
+                <div class="chapter-headline">
+                  Bereitstellung/Anforderung der Vergabeunterlagen
+                </div>
+              </h4>
+              <div class="chapter-content">
+                <div class="chapter level-two no-chapter-number">
+                  <div class="chapter-headline">
+                    Vergabeunterlagen werden&nbsp;elektronisch zur Verfügung gestellt unter
+                  </div>
+                  <div class="chapter-content"><a href="https://www.evergabe-online.de/tenderdetails.html?id=762112" target="_blank">https://www.evergabe-online.de/tenderdetails.html?id=762112</a>
+                  </div>
+                </div>
+                <div class="chapter level-two no-chapter-number">
+                  <div class="chapter-headline">
+                    Nachforderung
+                  </div>
+                  <div class="chapter-content">
+                    <p>Fehlende Unterlagen, deren Vorlage mit Angebotsabgabe gefordert war, werden</p> nachgefordert.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="section">
+            <div class="chapter">
+              <h4>
+                <div class="chapter-number">
+                  o)
+                </div>
+                <div class="chapter-headline">
+                  Ablauf der Angebots- und der Bindefrist
+                </div>
+              </h4>
+              <div class="chapter-content">
+                <div class="chapter level-two no-chapter-number">
+                  <div class="chapter-headline">
+                    Ablauf der Angebotsfrist
+                  </div>
+                  <div class="chapter-content">
+                    23.04.2025 - 15:00 Uhr
+                  </div>
+                </div>
+                <div class="chapter level-two no-chapter-number">
+                  <div class="chapter-headline">
+                    Ablauf der Bindefrist
+                  </div>
+                  <div class="chapter-content">
+                    30.05.2025
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="section">
+            <div class="chapter">
+              <h4>
+                <div class="chapter-number">
+                  p)
+                </div>
+                <div class="chapter-headline">
+                  Angebote sind einzureichen
+                </div>
+              </h4>
+              <div class="chapter-content">
+                <div class="chapter level-two no-chapter-number">
+                  <div class="chapter-headline">
+                    elektronisch via
+                  </div>
+                  <div class="chapter-content"><a href="https://www.evergabe-online.de/tenderdetails.html?id=762112" target="_blank">https://www.evergabe-online.de/tenderdetails.html?id=762112</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="section">
+            <div class="chapter">
+              <h4>
+                <div class="chapter-number">
+                  q)
+                </div>
+                <div class="chapter-headline">
+                  Sprache, in der die Angebote abgefasst sein müssen
+                </div>
+              </h4>
+              <div class="chapter-content">
+                Deutsch (gilt auch für Rückfragen und Schriftverkehr)
+              </div>
+            </div>
+          </div>
+          <div class="section">
+            <div class="chapter">
+              <h4>
+                <div class="chapter-number">
+                  r)
+                </div>
+                <div class="chapter-headline">
+                  Zuschlagskriterien
+                </div>
+              </h4>
+              <div class="chapter-content">
+                siehe Vergabeunterlagen
+              </div>
+            </div>
+          </div>
+          <div class="section">
+            <div class="chapter">
+              <h4>
+                <div class="chapter-number">
+                  t)
+                </div>
+                <div class="chapter-headline">
+                  Geforderte Sicherheiten
+                </div>
+              </h4>
+              <div class="chapter-content">
+                siehe Vergabeunterlagen
+                <br>
+              </div>
+            </div>
+          </div>
+          <div class="section">
+            <div class="chapter">
+              <h4>
+                <div class="chapter-number">
+                  u)
+                </div>
+                <div class="chapter-headline">
+                  Wesentliche Finanzierungs- und Zahlungsbedingungen und/oder Hinweise auf die maßgeblichen Vorschriften, in denen sie
+                  enthalten sind
+                </div>
+              </h4>
+              <div class="chapter-content">
+                siehe Vergabeunterlagen
+                <br>
+              </div>
+            </div>
+          </div>
+          <div class="section">
+            <div class="chapter">
+              <h4>
+                <div class="chapter-number">
+                  v)
+                </div>
+                <div class="chapter-headline">
+                  Rechtsform der / Anforderung an Bietergemeinschaften
+                </div>
+              </h4>
+              <div class="chapter-content">
+                gesamtschuldnerisch haftend mit bevollmächtigtem Vertreter
+                <br>
+              </div>
+            </div>
+          </div>
+          <div class="section">
+            <div class="chapter">
+              <h4>
+                <div class="chapter-number">
+                  w)
+                </div>
+                <div class="chapter-headline">
+                  Beurteilung der Eignung
+                </div>
+              </h4>
+              <div class="chapter-content">
+                <p><label>Präqualifizierte Unternehmen</label> führen den Nachweis der Eignung durch den Eintrag in die Liste des Vereins
+                  für die Präqualifikation von Bauunternehmen e.V. (Präqualifikationsverzeichnis). Bei Einsatz von Nachunternehmen ist auf
+                  gesondertes Verlangen nachzuweisen, dass diese präqualifiziert sind oder die Voraussetzung für die Präqualifikation
+                  erfüllen. </p>
+                <p><label>Nicht präqualifizierte Unternehmen</label> haben zum Nachweis der Eignung mit dem Angebot das ausgefüllte
+                  Formblatt „Eigenerklärung zur Eignung“ vorzulegen. Bei Einsatz von Nachunternehmen sind auf gesondertes Verlangen die
+                  Eigenerklärungen auch für diese abzugeben. Sind die Nachunternehmen präqualifiziert, reicht die Angabe der Nummer, unter
+                  der diese in der Liste des Vereins für die Präqualifikation von Bauunternehmen e.V. (Präqualifikationsverzeichnis) geführt
+                  werden. </p>
+                <p> Gelangt das <label>Angebot</label> in die engere Wahl, sind die Eigenerklärungen (auch die der Nachunternehmen) auf
+                  gesondertes Verlangen durch Vorlage der in der „Eigenerklärung zur Eignung“ genannten Bescheinigungen zuständiger Stellen
+                  zu bestätigen. Bescheinigungen, die nicht in deutscher Sprache abgefasst sind, ist eine Übersetzung in die deutsche
+                  Sprache beizufügen. </p>
+                <br>
+                <div class="chapter level-two no-chapter-number">
+                  <div class="chapter-headline">
+                    Das Formblatt „Eigenerklärung zur Eignung“ ist erhältlich / ggf. geforderte Eignungsnachweise
+                  </div>
+                  <div class="chapter-content">
+                    siehe Vergabeunterlagen: 1305-16-13_FB_124_Eigenerklärung zur Eignung.pdf
+                    <br>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="section">
+            <div class="chapter">
+              <h4>
+                <div class="chapter-number">
+                  x)
+                </div>
+                <div class="chapter-headline">
+                  Nachprüfung behaupteter Verstöße
+                </div>
+              </h4>
+              <div class="chapter-content">
+                <div class="chapter level-two no-chapter-number">
+                  <div class="chapter-headline">
+                    Nachprüfungsstelle (§ 21 VOB/A)
+                  </div>
+                  <div class="chapter-content">
+                    Vergabekammer des Freistaats Thüringen beim
+                    <br> Thüringer Landesverwaltungsamt, Jorge-Semprún-Platz 4, 99423 Weimar
+                    <br> .
+                    <br> Beanstandungen der beabsichtigten Vergabeentscheidung nach ThürVgG sind an die Vergabestelle (@@Stadtverwaltung Bad
+                    Berka** (Vergabestelle), Am Markt 10, 99438 Bad Berka) zu richten. Auf das im §14 ThürVgG beschriebene Verfahren im Falle der Nichtabhilfe
+                    und die Kostenfolge nach §14 ThürVgG wird hingewiesen.
+                    <br>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row button-group">
+        <div class="col-xs-12 col-sm-12 col-md-12">
+          <a class="btn btn-primary" id="id400" href="./tenderdocuments.html?id=762112">Ausschreibungsunterlagen einsehen</a>
+        </div>
+      </div>
+      <hr>
+      <hr>
+      <div class="row">
+        <div class="col-sm-6 gui-id">
+          <label>
+            XVergabe GUID:
+          </label>
+          <span class="form-control-static">2fb21f9e-964b-4440-8482-dc602ecacbd3</span>
+        </div>
+        <div class="col-sm-6 link-procedure">
+          <label>
+            Link zu dieser Bekanntmachung:
+          </label>
+          <a href="./tenderdetails.html?id=762112">
+            https://www.evergabe-online.de/tenderdetails.html?id=762112
+          </a>
+        </div>
+      </div>
+    </div>
+  </main>
+</div>
+
+##Ausgabeindikator##
+Gebe den Auszug aus der Ausschreibung vollständig zurück. Markiere die 
+gefundenen Entitäten wie folgt: die Entität wird mit Prefix @@ und dem Suffix **
+gekennzeichnet. Schreibe in Klammern die Art der Entität dahinter (Veröffentlichunsdatum, Erfüllungsort, Vergabestelle oder Geschäftszeichen).
+<div class="content border content_small" style="margin-top: 75px;">
+    <div class="xyz" id="printarea">
+        <div class="col-lg-12 contractNoticeHeader">
+            <h1 class="color-main">Bekanntmachung</h1>
+            <h2 class="smallGrey">KiTa Hangard - Elektroarbeiten SNEUNK-2025-0011</h2>
+            <br>
+            <br>
+            <div class="participationFullscreen">
+
+                <form class="submitForm" method="post" action="ParticipationControllerServlet">
+                    <input type="hidden" name="VALIDATION_TOKEN" value="-3862654437712301216">
+                    <input type="hidden" name="function" value="GetDocuments">
+                    <input type="hidden" name="TOID" value="54321-NetTender-195ec2be607-1f2e64ef038e2840">
+                    <input type="submit" class="btn btn-primary" value="An Ausschreibung teilnehmen">
+                </form>
+
+
+            </div>
+            <div class="downloadDocuments">
+                <a class="hiddenForLoggedInUser noPrint color-main"
+                   href="TenderingProcedureDetails?function=_Details&amp;TenderOID=54321-NetTender-195ec2be607-1f2e64ef038e2840&amp;thContext=publications">Unterlagen zur Ansicht
+                    herunterladen</a>
+            </div>
+            <div id="printDiv">
+                <a class="color-main" id="print" href="#">
+                    <i class="fas fa-print color-main" alt="Zur Druckansicht"></i>
+                    Druckansicht
+                </a>
+            </div>
+            <br>
+            <br>
+        </div>
+
+        <div>
+            <div class="col-lg-12">
+                <table class="table tableContractNotice tableNoBorder">
+                    <tbody>
+                    <tr class="tableNoticeHead">
+                        <td class="color-main" colspan="2">a) Öffentlicher Auftraggeber (Vergabestelle)</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"></td>
+                    </tr>
+                    <tr>
+                        <td>Name und Anschrift:</td>
+                        <td>Kreisstadt Neunkirchen<br> Oberer Markt 16<br> 66538 Neunkrchen</td>
+                    </tr>
+                    <tr>
+                        <td>Telefon:</td>
+                        <td>+49 6821202604</td>
+                    </tr>
+                    <tr>
+                        <td>Fax:</td>
+                        <td>+49 6821202641</td>
+                    </tr>
+                    <tr>
+                        <td>E-Mail:</td>
+                        <td>vergabestelle@neunkirchen.de</td>
+                    </tr>
+                    <tr>
+                        <td>Internet:</td>
+                        <td><a class="color-main" href="https://www.neunkirchen.de" target="_blank">https://www.neunkirchen.de</a></td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-lg-12">
+                <table class="table tableContractNotice tableNoBorder">
+                    <tbody>
+                    <tr class="tableNoticeHead">
+                        <td class="color-main" colspan="2">b)</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"></td>
+                    </tr>
+                    <tr>
+                        <td>Vergabeverfahren:</td>
+                        <td>Öffentliche Ausschreibung, VOB/A</td>
+                    </tr>
+                    <tr>
+                        <td>Vergabenummer:</td>
+                        <td>SNEUNK-2025-0011</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-lg-12">
+                <table class="table tableContractNotice tableNoBorder">
+                    <tbody>
+                    <tr class="tableNoticeHead">
+                        <td class="color-main" colspan="2">c) Angaben zum elektronischen Vergabeverfahren und zur Ver- und Entschlüsselung der Unterlagen</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"></td>
+                    </tr>
+                    <tr>
+                        <td>Zugelassene Angebotsabgabe<br> elektronisch<br> in Textform<br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br> schriftlich<br>
+                        </td>
+                        <td></td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-lg-12">
+                <table class="table tableContractNotice tableNoBorder">
+                    <tbody>
+                    <tr class="tableNoticeHead">
+                        <td class="color-main" colspan="2">d) Art des Auftrags</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"></td>
+                    </tr>
+                    <tr>
+                        <td>Ausführung von Bauleistungen</td>
+                        <td></td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-lg-12">
+                <table class="table tableContractNotice tableNoBorder">
+                    <tbody>
+                    <tr class="tableNoticeHead">
+                        <td class="color-main" colspan="2">e) Ort der Ausführung</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"></td>
+                    </tr>
+                    <tr>
+                        <td>Neunkrchen</td>
+                        <td></td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-lg-12">
+                <table class="table tableContractNotice tableNoBorder">
+                    <tbody>
+                    <tr class="tableNoticeHead">
+                        <td class="color-main" colspan="2">f) Art und Umfang der Leistung, ggf. aufgeteilt nach Losen</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"></td>
+                    </tr>
+                    <tr>
+                        <td>Art der Leistung:</td>
+                        <td>Elektroarbeiten</td>
+                    </tr>
+                    <tr>
+                        <td>Umfang der Leistung:</td>
+                        <td>Elektroarbeiten inkl. Nebenleistungen</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-lg-12">
+                <table class="table tableContractNotice tableNoBorder">
+                    <tbody>
+                    <tr class="tableNoticeHead">
+                        <td class="color-main" colspan="2">g) Angaben über den Zweck der baulichen Anlage oder des Auftrags, wenn auch Planungsleistungen gefordert werden</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"></td>
+                    </tr>
+                    <tr>
+                        <td>Zweck der baulichen Anlage:</td>
+                        <td>
+                            &nbsp;
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Zweck des Auftrags:</td>
+                        <td>
+                            &nbsp;
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-lg-12">
+                <table class="table tableContractNotice tableNoBorder">
+                    <tbody>
+                    <tr class="tableNoticeHead">
+                        <td class="color-main" colspan="2">h) Aufteilung in Lose (Art und Umfang der Lose siehe Buchstabe f)</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"></td>
+                    </tr>
+                    <tr>
+                        <td>Vergabe nach Losen</td>
+                        <td>Nein</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-lg-12">
+                <table class="table tableContractNotice tableNoBorder">
+                    <tbody>
+                    <tr class="tableNoticeHead">
+                        <td class="color-main" colspan="2">i) Ausführungsfristen</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"></td>
+                    </tr>
+                    <tr>
+                        <td>Beginn der Ausführung:</td>
+                        <td>06.05.2025</td>
+                    </tr>
+                    <tr>
+                        <td>Fertigstellung oder Dauer der Leistungen:</td>
+                        <td>23.09.2025</td>
+                    </tr>
+                    <tr>
+                        <td>weitere Fristen:</td>
+                        <td>
+                            &nbsp;
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-lg-12">
+                <table class="table tableContractNotice tableNoBorder">
+                    <tbody>
+                    <tr class="tableNoticeHead">
+                        <td class="color-main" colspan="2">j) Nebenangebote</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"></td>
+                    </tr>
+                    <tr>
+                        <td>nicht zugelassen</td>
+                        <td></td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-lg-12">
+                <table class="table tableContractNotice tableNoBorder">
+                    <tbody>
+                    <tr class="tableNoticeHead">
+                        <td class="color-main" colspan="2">k) mehrere Hauptangebote</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"></td>
+                    </tr>
+                    <tr>
+                        <td>zugelassen</td>
+                        <td></td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-lg-12">
+                <table class="table tableContractNotice tableNoBorder">
+                    <tbody>
+                    <tr class="tableNoticeHead">
+                        <td class="color-main" colspan="2">l) Bereitstellung/Anforderung der Vergabeunterlagen</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"></td>
+                    </tr>
+                    <tr>
+                        <td>Vergabeunterlagen werden elektronisch zur Verfügung gestellt<br>
+                        </td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>unter:</td>
+                        <td><a class="color-main"
+                               href="https://saarvpsl.vmstart.de/NetServer/TenderingProcedureDetails?function=_Details&amp;TenderOID=54321-Tender-195ec1e0ffa-424066c7fd4b4d22"
+                               target="_blank">https://saarvpsl.vmstart.de/NetServer/TenderingProcedureDetails?function=_Details&amp;TenderOID=54321-Tender-195ec1e0ffa-424066c7fd4b4d22</a>
+                            <br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Anforderung der Vergabeunterlagen:</td>
+                        <td>
+                            &nbsp;
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Maßnahmen zum Schutz vertraulicher Informationen:</td>
+                        <td>Nein</td>
+                    </tr>
+                    <tr>
+                        <td>Nachforderung</td>
+                        <td>Fehlende Unterlagen, deren Vorlage mit dem Angebot gefordert war, werden nachgefordert<br>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-lg-12">
+                <table class="table tableContractNotice tableNoBorder">
+                    <tbody>
+                    <tr class="tableNoticeHead">
+                        <td class="color-main" colspan="2">o) Ablauf der Angebotsfrist</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"></td>
+                    </tr>
+                    <tr>
+                        <td>am:</td>
+                        <td>16.04.2025</td>
+                    </tr>
+                    <tr>
+                        <td>um:</td>
+                        <td>10:00 Uhr</td>
+                    </tr>
+                    <tr>
+                        <td>Ablauf der Bindefrist am:</td>
+                        <td>16.05.2025</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-lg-12">
+                <table class="table tableContractNotice tableNoBorder">
+                    <tbody>
+                    <tr class="tableNoticeHead">
+                        <td class="color-main" colspan="2">p)</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"></td>
+                    </tr>
+                    <tr>
+                        <td>Adresse für elektronische Angebote (URL): <a class="color-main" href="https://saarvpsl.vmstart.de" target="_blank">https://saarvpsl.vmstart.de</a>
+                            <br> Anschrift für schriftliche Angebote: <br> Vergabestelle s. a)
+                        </td>
+                        <td></td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-lg-12">
+                <table class="table tableContractNotice tableNoBorder">
+                    <tbody>
+                    <tr class="tableNoticeHead">
+                        <td class="color-main" colspan="2">q) Sprache, in der die Angebote abgefasst sein müssen</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"></td>
+                    </tr>
+                    <tr>
+                        <td>Deutsch</td>
+                        <td></td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-lg-12">
+                <table class="table tableContractNotice tableNoBorder">
+                    <tbody>
+                    <tr class="tableNoticeHead">
+                        <td class="color-main" colspan="2">r) Zuschlagskriterien</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"></td>
+                    </tr>
+                    <tr>
+                        <td>nachfolgende Zuschlagskriterien, ggf. einschl. Gewichtung:<br> Niedrigster Preis</td>
+                        <td></td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-lg-12">
+                <table class="table tableContractNotice tableNoBorder">
+                    <tbody>
+                    <tr class="tableNoticeHead">
+                        <td class="color-main" colspan="2">s) Eröffnungstermin</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"></td>
+                    </tr>
+                    <tr>
+                        <td>am:</td>
+                        <td>16.04.2025</td>
+                    </tr>
+                    <tr>
+                        <td>um:</td>
+                        <td>10:00 Uhr</td>
+                    </tr>
+                    <tr>
+                        <td>Ort:</td>
+                        <td>Kreisstadt Neunkirchen<br>Oberer Markt 16<br>66538 Neunkirchen<br>Deutschland</td>
+                    </tr>
+                    <tr>
+                        <td>Personen, die bei der Eröffnung anwesend sein dürfen:</td>
+                        <td>Bieter und deren bevollmächtigte Vertreter</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-lg-12">
+                <table class="table tableContractNotice tableNoBorder">
+                    <tbody>
+                    <tr class="tableNoticeHead">
+                        <td class="color-main" colspan="2">t) geforderte Sicherheiten</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            &nbsp;
+                        </td>
+                        <td></td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-lg-12">
+                <table class="table tableContractNotice tableNoBorder">
+                    <tbody>
+                    <tr class="tableNoticeHead">
+                        <td class="color-main" colspan="2">u) Wesentliche Finanzierungs- und Zahlungsbedingungen und/oder Hinweise auf die maßgeblichen Vorschriften, in denen sie
+                            enthalten sind
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            &nbsp;
+                        </td>
+                        <td></td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-lg-12">
+                <table class="table tableContractNotice tableNoBorder">
+                    <tbody>
+                    <tr class="tableNoticeHead">
+                        <td class="color-main" colspan="2">v) Rechtsform der/Anforderung an Bietergemeinschaften</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"></td>
+                    </tr>
+                    <tr>
+                        <td>Gesamtschuldnerisch haftend mit bevollmächtigtem Vertreter</td>
+                        <td></td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-lg-12">
+                <table class="table tableContractNotice tableNoBorder">
+                    <tbody>
+                    <tr class="tableNoticeHead">
+                        <td class="color-main" colspan="2">w) Beurteilung der Eignung</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"></td>
+                    </tr>
+                    <tr>
+                        <td>Präqualifizierte Unternehmen führen den Nachweis der Eignung durch den Eintrag in die Liste des Vereins für die Präqualifikation von Bauunternehmen e.V.
+                            (Präqualifikationsverzeichnis). Bei Einsatz von Nachunternehmen ist auf gesondertes Verlangen nachzuweisen, dass diese präqualifiziert sind oder die
+                            Voraussetzung für die Präqualifikation erfüllen.<br> Nicht präqualifizierte Unternehmen haben als vorläufigen Nachweis der Eignung mit dem Angebot das
+                            ausgefüllte Formblatt ''Eigenerklärung zur Eignung'' vorzulegen. Bei Einsatz von Nachunternehmen sind auf gesondertes Verlangen die Eigenerklärungen
+                            auch für diese abzugeben. Sind die Nachunternehmen präqualifiziert, reicht die Angabe der Nummer, unter der diese in der Liste des Vereins für die
+                            Präqualifikation von Bauunternehmen e.V. (Präqualifikationsverzeichnis) geführt werden.<br> Gelangt das Angebot in die engere Wahl, sind die
+                            Eigenerklärungen (auch die der Nachunternehmen) auf gesondertes Verlangen durch Vorlage der in der ''Eigenerklärung zur Eignung'' genannten
+                            Bescheinigungen zuständiger Stellen zu bestätigen. Bescheinigungen, die nicht in deutscher Sprache abgefasst sind, ist eine Übersetzung in die deutsche
+                            Sprache beizufügen.
+                        </td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Das Formblatt 'Eigenerklärung zur Eignung' ist erhältlich:</td>
+                        <td>Siehe Vergabeunterlagen</td>
+                    </tr>
+                    <tr>
+                        <td>Darüber hinaus hat der Bieter zum Nachweis seiner Fachkunde folgende Angaben gemäß § 6a Abs. 3 VOB/A zu machen:</td>
+                        <td>
+                            &nbsp;
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-lg-12">
+                <table class="table tableContractNotice tableNoBorder">
+                    <tbody>
+                    <tr class="tableNoticeHead">
+                        <td class="color-main" colspan="2">x) Nachprüfung behaupteter Verstöße</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"></td>
+                    </tr>
+                    <tr>
+                        <td>Nachprüfungsstelle (§ 21 VOB/A):</td>
+                        <td>derzeit nicht benannt</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+
+        <br>
+        <br>
+    </div>
+</div>

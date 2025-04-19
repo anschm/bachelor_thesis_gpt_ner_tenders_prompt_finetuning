@@ -1,0 +1,1205 @@
+##Aufgabenbeschreibung##
+Du sollst Entitäten in dieser öffentlichen Ausschreibung erkennen:
+##Definitionen der Entitäten##
+Folgende Entitäten sollst du erkennen:
+1. Veröffentlichungsdatum (Synonyme: Datum der Veröffentlichung, Bekanntmachung): kann in verschiedenen Formaten vorliegen (bspw. 23.01.2025, 23. Januar 2025).
+2. Erfüllungsort (Synonyme: Ort der Ausführung, Leistungsort, Ort der Leistungserbringung): hierbei kann es sich um eine vollständige Adresse mit Straße, Hausnummer, Postleitzahl und Stadt, als auch um eine einfache Ortsangabe in Form einer Stadt handeln.
+3. Vergabestelle (Synonyme: Auftraggeber, Beschaffer): die liegt häufig als verschachteltes Objekt vor (bspw. "Bundesministerium für Verkehr und digitale Infrastruktur").
+4. Geschäftszeichen (Synonyme: Vergabenummer, Identifikationsnummer, Vergabenr., Projektnummer, Interne Kennung): setzt sich typischerweise aus der Behörde oder Institution, dem Jahr der Veröffentlichung, einer fortlaufenden Ausschreibungsnummer und gegebenenfalls der Art der Ausschreibung zusammen (z. B. 0362/25-B-Ö-21).
+##Aufgabenschwerpunkte##
+Bevor du die Lösung abgibst, überprüfe bei jeder Entität, ob du sie wirklich 
+richtig und vollständig identifiziert hast. Entitäten sind nur dann richtig erkannt, 
+wenn sie vollständig und korrekt erkannt wurden. Entitäten können diskontinuierlich oder geschachtelte Objekte, 
+wie bspw. "Bundesministreium für Verkehr und digitale Infrastruktur", sein.
+##Übungsbeispiel##
+<div id="content" class="no-bg">
+  <main class="container">
+    <div>
+      <h2>Ausschreibungsdetails</h2>
+    </div>
+    <div class="distance"></div>
+    <form class="form-horizontal">
+      <div class="procedure-infos">
+        <section class="clearfix">
+          <h4>1305_Neubau Feuerwehrgerätehaus Gutendorf, Los 16 Erschließung und Freianlagen</h4>
+          <div class="ev-tooltip">
+            <button
+              class="ev-tooltip-toggle"
+              type="button"
+              data-toggle="popover"
+              name="headerSection:contentLinkTenderingProcedureDetails:tooltipContainer:toggleButton"
+              id="id3f8"
+              aria-label="Zusatzinformation"
+            >
+              <span class="ev-tooltip-icon glyphicon glyphicon-info-sign" aria-hidden="true"></span>
+            </button>
+            <div class="ev-tooltip-content">
+              <div class="ev-tooltip-body wiki-markup-container">
+                <p>Zur Einhaltung der Teilnahmefrist wählen Sie vor deren Ablauf 'Teilnahme aktivieren' und laden mit Hilfe des AnA-Web die
+                  Vergabeunterlagen herunter.</p>
+              </div>
+              <span class="ev-tooltip-footer">
+                    <a href="https://www.evergabe-online.info/e-Vergabe/DE/3%20Unternehmen/BereitsRegistriert/node_BereitsRegistriert.html">Mehr lesen</a>
+                </span>
+            </div>
+          </div>
+        </section>
+        <div class="row procedure-info">
+          <div class="col-xs-12 col-sm-7">
+            <div class="form-group" id="id3f9">
+              <label class="col-xs-12 col-sm-6 col-md-5 control-label">
+                <span>Veröffentlichungsdatum:</span>
+              </label>
+              <div class="col-xs-12 col-sm-6 col-md-7">
+                <p class="form-control-static">
+                  @@28.03.2025** (Veröffentlichungsdatum)
+                </p>
+              </div>
+            </div>
+            <div class="form-group" id="id3fa">
+              <label class="col-xs-12 col-sm-6 col-md-5 control-label">
+                <span>Abgabefrist Angebot:</span>
+              </label>
+              <div class="col-xs-12 col-sm-6 col-md-7">
+                <p class="form-control-static">23.04.2025 15:00</p>
+              </div>
+            </div>
+            <div class="form-group" id="id3fb">
+              <label class="col-xs-12 col-sm-6 col-md-5 control-label">
+                Geschäftszeichen:
+              </label>
+              <div class="col-xs-12 col-sm-6 col-md-7">
+                <p class="form-control-static">@@ba-1305-16-2024** (Geschäftszeichen)</p>
+              </div>
+            </div>
+            <div class="form-group" id="id3fc">
+              <label class="col-xs-12 col-sm-6 col-md-5 control-label">
+                Vergabestelle:
+              </label>
+              <div class="col-xs-12 col-sm-6 col-md-7">
+                <p class="form-control-static">Thüringen: @@Stadtverwaltung Bad Berka** (Vergabestelle)</p>
+              </div>
+            </div>
+            <div class="form-group" id="id3fd">
+              <label class="col-xs-12 col-sm-6 col-md-5 control-label">
+                Letzte Änderung:
+              </label>
+              <div class="col-xs-12 col-sm-6 col-md-7">
+                <p class="form-control-static">28.03.2025 18:17</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-5">
+            <div class="bordered-section">
+              <h3 class="bordered-section-title">
+                Meine e-Vergabe
+              </h3>
+              <div class="bordered-section-body">
+                <ul class="link-box list-group">
+                  <li class="list-group-item">
+                    <a
+                      class="icon"
+                      id="id3e6"
+                      href="./tenderdetails.html?13-1.-headerSection-notLoggedInSubscribeButtonContainer-notLoggedInSubscribeButton&amp;id=762112"
+                      title="Teilnahme aktivieren"
+                      rel="nofollow"
+                    >
+                      <i class="fa fa-arrow-circle-o-right"></i>
+                      <span>Teilnahme aktivieren</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
+    <hr>
+    <div>
+      <div class="distance-higher"></div>
+      <div id="htmlDocument">
+        <div class="procedure-details nat-form">
+          <div class="procedure-header">
+            <div class="footer-content"><strong>DE</strong> Formular 121&nbsp;— Auftragsbekanntmachung
+            </div>
+            <h2>Auftragsbekanntmachung</h2>
+            <h3>Öffentliche Ausschreibung nach VOB/A</h3>
+            <p>Formular 121 - VHB-Bund - Ausgabe 2019</p>
+          </div>
+          <div class="section">
+            <div class="chapter">
+              <h4>
+                <div class="chapter-number">
+                  a)
+                </div>
+                <div class="chapter-headline">
+                  Öffentlicher Auftraggeber (Vergabestelle)
+                </div>
+              </h4>
+              <div class="chapter-content">
+                <div><span class="content-left">Name:</span> <span class="content-right">@@Stadtverwaltung Bad Berka</span>
+                </div>
+                <div><span class="content-left">Straße, Hausnummer:</span> <span class="content-right">Am Markt 10</span>
+                </div>
+                <div><span class="content-left">Postleitzahl (PLZ):</span> <span class="content-right">99438</span>
+                </div>
+                <div><span class="content-left">Ort:</span> <span class="content-right">Bad Berka</span>
+                </div>
+                <div><span class="content-left">Telefon:</span> <span class="content-right">+49 36458 55118</span>
+                </div>
+                <div><span class="content-left">E-Mail:</span> <span class="content-right"> <a href="mailto:vergabestelle@bad-berka.de">vergabestelle@bad
+                  -berka.de** (Vergabestelle)</a> </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="section">
+            <div class="chapter">
+              <h4>
+                <div class="chapter-number">
+                  b)
+                </div>
+                <div class="chapter-headline">
+                  Verfahrensart „Öffentliche Ausschreibung nach VOB/A“
+                </div>
+              </h4>
+              <div class="chapter-content">
+                <div><span class="content-left"> Geschäftszeichen: </span> <span class="content-right">@@ba-1305-16-2024** (Geschäftszeichen)</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="section">
+            <div class="chapter">
+              <h4>
+                <div class="chapter-number">
+                  c)
+                </div>
+                <div class="chapter-headline">
+                  Angaben zum elektronischen Vergabeverfahren und zur Ver- und Entschlüsselung der Unterlagen
+                </div>
+              </h4>
+              <div class="chapter-content">
+                <div class="chapter no-chapter-number">
+                  <h4>
+                    <div class="chapter-headline">
+                      Zugelassene Angebotsabgabe
+                    </div>
+                  </h4>
+                  <div class="chapter-content">
+                    <ul class="bullet-list">
+                      <li> elektronisch
+                        <ul class="bullet-list bullet-list-level">
+                          <li>ohne elektronische Signatur (Textform)</li>
+                          <li>mit fortgeschrittener elektronischer Signatur / fortgeschrittenem elektronischen Siegel</li>
+                          <li>mit qualifizierter elektronischer Signatur / qualifiziertem elektronischen Siegel</li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="section">
+            <div class="chapter">
+              <h4>
+                <div class="chapter-number">
+                  d)
+                </div>
+                <div class="chapter-headline">
+                  Art des Auftrags
+                </div>
+              </h4>
+              <div class="chapter-content">
+                Ausführung von Bauleistungen
+              </div>
+            </div>
+          </div>
+          <div class="section">
+            <div class="chapter">
+              <h4>
+                <div class="chapter-number">
+                  e)
+                </div>
+                <div class="chapter-headline">
+                  Ort der Ausführung
+                </div>
+              </h4>
+              <div class="chapter-content">
+                @@99438 Bad Berka, Ortsteil Gutendorf** (Erfüllungsort)
+                <br>
+              </div>
+            </div>
+          </div>
+          <div class="section">
+            <div class="chapter">
+              <h4>
+                <div class="chapter-number">
+                  f)
+                </div>
+                <div class="chapter-headline">
+                  Art und Umfang der Leistung, ggf. aufgeteilt nach Losen
+                </div>
+              </h4>
+              <div class="chapter-content">
+                1305_Neubau Feuerwehrgerätehaus Gutendorf, Los 16 Erschließung und Freianlagen
+                <br> .
+                <br> Titel Erschließung
+                <br> - Abwasserkanal: ca. 93 m Kanal DN 160 PP; ca. 51 m Regenwasserkanal DN 250 PP; ca. 22 m Regenwasserkanal DN 1000 Sb; 4
+                St Schächte DN 1000 Sb; 2 St Schächte DN 1500 Sb
+                <br> - Trinkwasserleitung: ca. 106 m Druckrohr HDPE 40 x 3,7; 1 St Wasserzählerschacht; ca. 32 m Erd- und Tiefbau für
+                Hausanschlussleitung
+                <br> - Straßenbau: ca. 340 m2 Asphaltdeck- u. Tragschicht; ca. 85 m2 Pflasterarbeiten; ca. 150 m Borde; ca. 100 m
+                Kabelleerrohr HDPE 110
+                <br> einschl. Erdbau
+                <br> .
+                <br> Titel Freianlagen
+                <br> ca. 120,00 m² Schotterrasen-Parkfläche inkl. Unterbau N2, ca. 200 m Bordstein, Betonbett, DIT, HB 150/ 220-300 mm;
+                200,00 m² Pflasterbelag Verkehrsfläche Bk 0,3, 250/250/80 mm,
+                <br> Halbverband, N2, ungebundene Bauweise; 150,00 m² Wasserdurchlässiger Asphalt (Dränasphalt), PA 16 TD WDA; 105,00 m²
+                Pflasterbelag Gehwege 300/300/100 mm, in Reihen,
+                <br> Halbverband, N1, ungebundene Bauweise; 215,00 m² Pflasterbelag Verkehrsfläche Bk 3,2, 150/300/100 mm, Halbverband, N3,
+                ungebundene Bauweise; 15,00 m² Sitzmauer 30 m lang, 0,5 cm hoch, Naturstein bauseits lagernd errichten inkl. Fundament;
+                11,500 m Kastenrinne, Beton/Stahl, NW 200 AS mit Abdeckrost, Guss, Klasse E, Breite 300 mm; 200 m³ Geländemodellierung,
+                nichtbindiger Boden, verdichten DPr 97 %; 400 m² Rasenansaat, Landschaftsrasen/Kräuter, 20 g/m² inkl. Fertigstellungspflege;
+                10 St Baum- und Solitärpflanzung einschl. aller erford. Vorarbeiten und Fertigstellungspflege
+                <br>
+              </div>
+            </div>
+          </div>
+          <div class="section">
+            <div class="chapter">
+              <h4>
+                <div class="chapter-number">
+                  h)
+                </div>
+                <div class="chapter-headline">
+                  Losweise Vergabe
+                </div>
+              </h4>
+              <div class="chapter-content">
+                Nein
+              </div>
+            </div>
+          </div>
+          <div class="section">
+            <div class="chapter">
+              <h4>
+                <div class="chapter-number">
+                  i)
+                </div>
+                <div class="chapter-headline">
+                  Ausführungsfristen
+                </div>
+              </h4>
+              <div class="chapter-content">
+                <div class="chapter level-two no-chapter-number">
+                  <div class="chapter-headline">
+                    Beginn der Ausführung
+                  </div>
+                  <div class="chapter-content">
+                    03.06.2025
+                  </div>
+                </div>
+                <div class="chapter level-two no-chapter-number">
+                  <div class="chapter-headline">
+                    Fertigstellung oder Dauer der Leistungen
+                  </div>
+                  <div class="chapter-content">
+                    30.03.2026
+                  </div>
+                </div>
+                <div class="chapter level-two no-chapter-number">
+                  <div class="chapter-headline">
+                    Weitere Fristen
+                  </div>
+                  <div class="chapter-content">
+                    Fertigstellung Erschließungsarbeiten bis 30.09.2025
+                    <br> Fertigstellung Freianlagen ohne Pflanzarbeiten bis 19.12.2025
+                    <br> Fertigstellung Pflanzarbeiten bis 30.03.2026
+                    <br>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="section">
+            <div class="chapter">
+              <h4>
+                <div class="chapter-number">
+                  j)
+                </div>
+                <div class="chapter-headline">
+                  Nebenangebote
+                </div>
+              </h4>
+              <div class="chapter-content">
+                nur in Verbindung mit einem Hauptangebot zugelassen
+              </div>
+            </div>
+          </div>
+          <div class="section">
+            <div class="chapter">
+              <h4>
+                <div class="chapter-number">
+                  k)
+                </div>
+                <div class="chapter-headline">
+                  Mehrere Hauptangebote
+                </div>
+              </h4>
+              <div class="chapter-content">
+                nicht zugelassen
+              </div>
+            </div>
+          </div>
+          <div class="section">
+            <div class="chapter">
+              <h4>
+                <div class="chapter-number">
+                  l)
+                </div>
+                <div class="chapter-headline">
+                  Bereitstellung/Anforderung der Vergabeunterlagen
+                </div>
+              </h4>
+              <div class="chapter-content">
+                <div class="chapter level-two no-chapter-number">
+                  <div class="chapter-headline">
+                    Vergabeunterlagen werden&nbsp;elektronisch zur Verfügung gestellt unter
+                  </div>
+                  <div class="chapter-content"><a href="https://www.evergabe-online.de/tenderdetails.html?id=762112" target="_blank">https://www.evergabe-online.de/tenderdetails.html?id=762112</a>
+                  </div>
+                </div>
+                <div class="chapter level-two no-chapter-number">
+                  <div class="chapter-headline">
+                    Nachforderung
+                  </div>
+                  <div class="chapter-content">
+                    <p>Fehlende Unterlagen, deren Vorlage mit Angebotsabgabe gefordert war, werden</p> nachgefordert.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="section">
+            <div class="chapter">
+              <h4>
+                <div class="chapter-number">
+                  o)
+                </div>
+                <div class="chapter-headline">
+                  Ablauf der Angebots- und der Bindefrist
+                </div>
+              </h4>
+              <div class="chapter-content">
+                <div class="chapter level-two no-chapter-number">
+                  <div class="chapter-headline">
+                    Ablauf der Angebotsfrist
+                  </div>
+                  <div class="chapter-content">
+                    23.04.2025 - 15:00 Uhr
+                  </div>
+                </div>
+                <div class="chapter level-two no-chapter-number">
+                  <div class="chapter-headline">
+                    Ablauf der Bindefrist
+                  </div>
+                  <div class="chapter-content">
+                    30.05.2025
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="section">
+            <div class="chapter">
+              <h4>
+                <div class="chapter-number">
+                  p)
+                </div>
+                <div class="chapter-headline">
+                  Angebote sind einzureichen
+                </div>
+              </h4>
+              <div class="chapter-content">
+                <div class="chapter level-two no-chapter-number">
+                  <div class="chapter-headline">
+                    elektronisch via
+                  </div>
+                  <div class="chapter-content"><a href="https://www.evergabe-online.de/tenderdetails.html?id=762112" target="_blank">https://www.evergabe-online.de/tenderdetails.html?id=762112</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="section">
+            <div class="chapter">
+              <h4>
+                <div class="chapter-number">
+                  q)
+                </div>
+                <div class="chapter-headline">
+                  Sprache, in der die Angebote abgefasst sein müssen
+                </div>
+              </h4>
+              <div class="chapter-content">
+                Deutsch (gilt auch für Rückfragen und Schriftverkehr)
+              </div>
+            </div>
+          </div>
+          <div class="section">
+            <div class="chapter">
+              <h4>
+                <div class="chapter-number">
+                  r)
+                </div>
+                <div class="chapter-headline">
+                  Zuschlagskriterien
+                </div>
+              </h4>
+              <div class="chapter-content">
+                siehe Vergabeunterlagen
+              </div>
+            </div>
+          </div>
+          <div class="section">
+            <div class="chapter">
+              <h4>
+                <div class="chapter-number">
+                  t)
+                </div>
+                <div class="chapter-headline">
+                  Geforderte Sicherheiten
+                </div>
+              </h4>
+              <div class="chapter-content">
+                siehe Vergabeunterlagen
+                <br>
+              </div>
+            </div>
+          </div>
+          <div class="section">
+            <div class="chapter">
+              <h4>
+                <div class="chapter-number">
+                  u)
+                </div>
+                <div class="chapter-headline">
+                  Wesentliche Finanzierungs- und Zahlungsbedingungen und/oder Hinweise auf die maßgeblichen Vorschriften, in denen sie
+                  enthalten sind
+                </div>
+              </h4>
+              <div class="chapter-content">
+                siehe Vergabeunterlagen
+                <br>
+              </div>
+            </div>
+          </div>
+          <div class="section">
+            <div class="chapter">
+              <h4>
+                <div class="chapter-number">
+                  v)
+                </div>
+                <div class="chapter-headline">
+                  Rechtsform der / Anforderung an Bietergemeinschaften
+                </div>
+              </h4>
+              <div class="chapter-content">
+                gesamtschuldnerisch haftend mit bevollmächtigtem Vertreter
+                <br>
+              </div>
+            </div>
+          </div>
+          <div class="section">
+            <div class="chapter">
+              <h4>
+                <div class="chapter-number">
+                  w)
+                </div>
+                <div class="chapter-headline">
+                  Beurteilung der Eignung
+                </div>
+              </h4>
+              <div class="chapter-content">
+                <p><label>Präqualifizierte Unternehmen</label> führen den Nachweis der Eignung durch den Eintrag in die Liste des Vereins
+                  für die Präqualifikation von Bauunternehmen e.V. (Präqualifikationsverzeichnis). Bei Einsatz von Nachunternehmen ist auf
+                  gesondertes Verlangen nachzuweisen, dass diese präqualifiziert sind oder die Voraussetzung für die Präqualifikation
+                  erfüllen. </p>
+                <p><label>Nicht präqualifizierte Unternehmen</label> haben zum Nachweis der Eignung mit dem Angebot das ausgefüllte
+                  Formblatt „Eigenerklärung zur Eignung“ vorzulegen. Bei Einsatz von Nachunternehmen sind auf gesondertes Verlangen die
+                  Eigenerklärungen auch für diese abzugeben. Sind die Nachunternehmen präqualifiziert, reicht die Angabe der Nummer, unter
+                  der diese in der Liste des Vereins für die Präqualifikation von Bauunternehmen e.V. (Präqualifikationsverzeichnis) geführt
+                  werden. </p>
+                <p> Gelangt das <label>Angebot</label> in die engere Wahl, sind die Eigenerklärungen (auch die der Nachunternehmen) auf
+                  gesondertes Verlangen durch Vorlage der in der „Eigenerklärung zur Eignung“ genannten Bescheinigungen zuständiger Stellen
+                  zu bestätigen. Bescheinigungen, die nicht in deutscher Sprache abgefasst sind, ist eine Übersetzung in die deutsche
+                  Sprache beizufügen. </p>
+                <br>
+                <div class="chapter level-two no-chapter-number">
+                  <div class="chapter-headline">
+                    Das Formblatt „Eigenerklärung zur Eignung“ ist erhältlich / ggf. geforderte Eignungsnachweise
+                  </div>
+                  <div class="chapter-content">
+                    siehe Vergabeunterlagen: 1305-16-13_FB_124_Eigenerklärung zur Eignung.pdf
+                    <br>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="section">
+            <div class="chapter">
+              <h4>
+                <div class="chapter-number">
+                  x)
+                </div>
+                <div class="chapter-headline">
+                  Nachprüfung behaupteter Verstöße
+                </div>
+              </h4>
+              <div class="chapter-content">
+                <div class="chapter level-two no-chapter-number">
+                  <div class="chapter-headline">
+                    Nachprüfungsstelle (§ 21 VOB/A)
+                  </div>
+                  <div class="chapter-content">
+                    Vergabekammer des Freistaats Thüringen beim
+                    <br> Thüringer Landesverwaltungsamt, Jorge-Semprún-Platz 4, 99423 Weimar
+                    <br> .
+                    <br> Beanstandungen der beabsichtigten Vergabeentscheidung nach ThürVgG sind an die Vergabestelle (@@Stadtverwaltung Bad
+                    Berka** (Vergabestelle), Am Markt 10, 99438 Bad Berka) zu richten. Auf das im §14 ThürVgG beschriebene Verfahren im Falle der Nichtabhilfe
+                    und die Kostenfolge nach §14 ThürVgG wird hingewiesen.
+                    <br>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row button-group">
+        <div class="col-xs-12 col-sm-12 col-md-12">
+          <a class="btn btn-primary" id="id400" href="./tenderdocuments.html?id=762112">Ausschreibungsunterlagen einsehen</a>
+        </div>
+      </div>
+      <hr>
+      <hr>
+      <div class="row">
+        <div class="col-sm-6 gui-id">
+          <label>
+            XVergabe GUID:
+          </label>
+          <span class="form-control-static">2fb21f9e-964b-4440-8482-dc602ecacbd3</span>
+        </div>
+        <div class="col-sm-6 link-procedure">
+          <label>
+            Link zu dieser Bekanntmachung:
+          </label>
+          <a href="./tenderdetails.html?id=762112">
+            https://www.evergabe-online.de/tenderdetails.html?id=762112
+          </a>
+        </div>
+      </div>
+    </div>
+  </main>
+</div>
+
+##Ausgabeindikator##
+Gebe den Auszug aus der Ausschreibung vollständig zurück. Markiere die 
+gefundenen Entitäten wie folgt: die Entität wird mit Prefix @@ und dem Suffix **
+gekennzeichnet. Schreibe in Klammern die Art der Entität dahinter (Veröffentlichunsdatum, Erfüllungsort, Vergabestelle oder Geschäftszeichen).
+<div id="content" class="no-bg">
+    <main class="container">
+
+        <div>
+
+            <h2>Ausschreibungsdetails</h2>
+
+            <p></p><p></p><p></p>
+
+        </div>
+
+
+
+
+
+
+
+        <div class="distance"></div>
+
+        <form class="form-horizontal">
+
+            <div class="procedure-infos">
+                <section class="clearfix">
+                    <h4>Projektträgerschaft zur Förderung von Projekten im ‘Nationalen Artenhilfsprogramm‘</h4>
+
+
+
+
+
+                    <div class="ev-tooltip">
+                        <button class="ev-tooltip-toggle" type="button" data-toggle="popover" name="headerSection:contentLinkTenderingProcedureDetails:tooltipContainer:toggleButton" id="id983" aria-label="Zusatzinformation">
+                            <span class="ev-tooltip-icon glyphicon glyphicon-info-sign" aria-hidden="true"></span>
+                        </button>
+                        <div class="ev-tooltip-content">
+                            <div class="ev-tooltip-body wiki-markup-container">
+                                <p>Zur Einhaltung der Teilnahmefrist wählen Sie vor deren Ablauf 'Teilnahme aktivieren' und laden mit Hilfe des AnA-Web die Vergabeunterlagen herunter.</p>
+                            </div>
+
+                            <span class="ev-tooltip-footer">
+                    <a href="https://www.evergabe-online.info/e-Vergabe/DE/3%20Unternehmen/BereitsRegistriert/node_BereitsRegistriert.html">Mehr lesen</a>
+                </span>
+
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+                </section>
+                <div class="row procedure-info">
+                    <div class="col-xs-12 col-sm-7">
+                        <div class="form-group" id="id984">
+                            <label class="col-xs-12 col-sm-6 col-md-5 control-label">
+                                <span>Veröffentlichungsdatum:</span>
+                            </label>
+                            <div class="col-xs-12 col-sm-6 col-md-7">
+                                <p class="form-control-static">
+                                    31.03.2025
+
+
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="form-group" id="id985">
+                            <label class="col-xs-12 col-sm-6 col-md-5 control-label">
+                                <span>Abgabefrist Angebot:</span>
+                            </label>
+
+                            <div class="col-xs-12 col-sm-6 col-md-7">
+                                <p class="form-control-static">08.05.2025 10:00</p>
+                            </div>
+                        </div>
+                        <div class="form-group" id="id986">
+                            <label class="col-xs-12 col-sm-6 col-md-5 control-label">
+                                Geschäftszeichen:
+                            </label>
+
+                            <div class="col-xs-12 col-sm-6 col-md-7">
+                                <p class="form-control-static">3524152100-La</p>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="col-xs-12 col-sm-6 col-md-5 control-label">
+                                Anzahl Lose:
+                            </label>
+
+                            <div class="col-xs-12 col-sm-6 col-md-7">
+                                <p class="form-control-static">1</p>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="col-xs-12 col-sm-6 col-md-5 control-label offer-type-label">Abgabe von Teilnahmeanträgen/<br>Angeboten für:</label>
+
+                            <div class="col-xs-12 col-sm-6 col-md-7">
+                                <p class="form-control-static">Verfahren</p>
+                            </div>
+                        </div>
+
+                        <div class="form-group" id="id987">
+                            <label class="col-xs-12 col-sm-6 col-md-5 control-label">
+                                Vergabestelle:
+                            </label>
+
+                            <div class="col-xs-12 col-sm-6 col-md-7">
+                                <p class="form-control-static">Bundesamt für Naturschutz</p>
+                            </div>
+                        </div>
+                        <div class="form-group" id="id988">
+                            <label class="col-xs-12 col-sm-6 col-md-5 control-label">
+                                Letzte Änderung:
+                            </label>
+
+                            <div class="col-xs-12 col-sm-6 col-md-7">
+                                <p class="form-control-static">31.03.2025 00:00</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-xs-12 col-sm-5">
+
+
+
+
+                        <div class="bordered-section">
+                            <h3 class="bordered-section-title">
+                                Meine e-Vergabe
+                            </h3>
+                            <div class="bordered-section-body">
+                                <ul class="link-box list-group">
+                                    <li class="list-group-item">
+                                        <a class="icon" id="id971" href="./tenderdetails.html?29-1.-headerSection-notLoggedInSubscribeButtonContainer-notLoggedInSubscribeButton&amp;id=762074" title="Teilnahme aktivieren" rel="nofollow">
+                                            <i class="fa fa-arrow-circle-o-right"></i>
+                                            <span>Teilnahme aktivieren</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="button-group">
+                    <a class="btn btn-primary" id="id98a" href="./tenderdocuments.html?id=762074">Ausschreibungsunterlagen einsehen</a>
+
+                </div>
+
+            </div></form>
+
+        <hr>
+
+
+
+
+
+
+
+
+
+        <div>
+
+
+
+            <div class="distance-higher"></div>
+
+            <div id="htmlDocument"><section title="block01">
+                1&nbsp;<span class="label">Beschaffer</span>
+                <section title="block0101">
+                    1.1&nbsp;<span class="label">Beschaffer</span>
+                    <section title="block010101">
+                        <span class="label">Offizielle Bezeichnung</span><span class="text">: </span><span class="value">Bundesamt für Naturschutz</span>
+                    </section>
+                    <section title="block010102">
+                        <span class="label">Art des öffentlichen Auftraggebers</span><span class="text">: </span><span class="dynamic-label">Obere, mittlere und untere Bundesbehörde, die den niedrigen Schwellenwert anwenden gem. § 106 Abs. 2 Nr. 1 GWB</span>
+                    </section>
+                    <section title="block010103">
+                        <span class="label">Haupttätigkeiten des öffentlichen Auftraggebers</span><span class="text">: </span><span class="dynamic-label">Umweltschutz</span>
+                    </section>
+                </section>
+            </section>
+                <section title="block02">
+                    2&nbsp;<span class="label">Verfahren</span>
+                    <section title="block0201">
+                        2.1&nbsp;<span class="label">Verfahren</span>
+                        <section title="block020101">
+                            <span class="label">Titel</span><span class="text">: </span><span class="value">Projektträgerschaft zur Förderung von Projekten im ‘Nationalen Artenhilfsprogramm‘</span>
+                        </section>
+                        <section title="block020102">
+                            <span class="label">Beschreibung</span><span class="text">: </span><span class="value">Bestandteil dieser Vergabe ist die Wahrnehmung der Projektträgerschaft für das Nationale Artenhilfsprogramm, mit dem die Projektförderung entlang der inhaltlichen und formalen Vorgaben der Auftraggeberin fachlich und administrativ in allen Phasen umzusetzen ist. Dazu gehören insbesondere die Erarbeitung von Förderbekanntmachungen und Projektaufrufen unter Beachtung des Gesamtförderkonzeptes der Auftraggeberin, die Erstellung und Fortentwicklung von Skizzen- und Antragsunterlagen, die Beratung der Interessent*innen und Antragstellenden, die Prüfung der Skizzen und Anträge, die Bewilligung bzw. Ablehnung von Zuwendungen/Zuweisungen und die fachlich-administrative Betreuung während der Laufzeit bis hin zur Verwendungsnachweisprüfung.<br>Das Programmbüro unterstützt die Auftraggeberin bei der Weiterentwicklung des Förderprogramms AHP unter Beachtung der Entwicklung der Gesamtförderlandschaft des BMUV. Die Verbreitung der Ergebnisse aus den Projekten und ihrer Evaluation durch Fachkommunikation, Veranstaltungsorganisation und -teilnahme ist ebenfalls zu unterstützen.<br>Auch die Vergabe ausgewählter Projektevaluations-Aufträge, sowie die fachliche und administrative Begleitung und Bewertung der einzelnen Projektevaluations-Vorhaben, die Kommunikation von Aktivitäten und Ergebnissen der ausgewählten Projekte sowie die Unterstützung von Transferaktivitäten gehören zum Aufgabenprofil des Programmbüros.</span>
+                        </section>
+                        <section title="block020103">
+                            <span class="label">Kennung des Verfahrens</span><span class="text">: </span><span class="value">25e79ac7-ee9e-4c8d-910e-99a138f03f4b</span>
+                        </section>
+                        <section title="block020105">
+                            <span class="label">Interne Kennung</span><span class="text">: </span><span class="value">3524152100-La</span>
+                        </section>
+                        <section title="block020106">
+                            <span class="label">Verfahrensart</span><span class="text">: </span><span class="dynamic-label">Offenes Verfahren</span>
+                        </section>
+                        <section title="block020107">
+                            <span class="label">Beschleunigtes Verfahren</span><span class="text">: </span><span class="label">nein</span>
+                        </section>
+                        <section title="block020110">
+                            2.1.1&nbsp;<span class="label">Zweck</span>
+                            <section title="block02011001">
+                                <span class="label">Art des Auftrags</span><span class="text">: </span><span class="dynamic-label">Dienstleistungen</span>
+                            </section>
+                            <section title="block02011003">
+                                <span class="label">Hauptklassifizierungscode</span><span class="text"> </span><span class="text">(</span><span class="value">cpv</span><span class="text">): </span><span class="value">75100000</span><span class="text"> </span><span class="dynamic-label">Dienstleistungen der Verwaltung</span>
+                            </section>
+                        </section>
+                        <section title="block020111">
+                            2.1.2&nbsp;<span class="label">Erfüllungsort</span>
+                            <section title="block02011104">
+                                <span class="label">NUTS-3-Code</span><span class="text">: </span><span class="dynamic-label">Bonn, Kreisfreie Stadt</span><span class="text"> </span><span class="text">(</span><span class="value">DEA22</span><span class="text">)</span>
+                            </section>
+                            <section title="block02011105">
+                                <span class="label">Land</span><span class="text">: </span><span class="dynamic-label">Deutschland</span>
+                            </section>
+                        </section>
+                        <section title="block020113">
+                            <span class="label">Allgemeine Informationen</span>
+                        </section>
+                        <section title="block020116">
+                            2.1.6&nbsp;<span class="label">Ausschlussgründe</span>
+                            <section title="block02011601">
+                                <span class="dynamic-label">Bestechlichkeit, Vorteilsgewährung und Bestechung</span><span class="text">: </span><span class="value">siehe Vergabeunterlagen</span>
+                            </section>
+                            <section title="block02011601">
+                                <span class="dynamic-label">Betrug oder Subventionsbetrug</span><span class="text">: </span><span class="value">siehe Vergabeunterlagen</span>
+                            </section>
+                            <section title="block02011601">
+                                <span class="dynamic-label">Bildung krimineller Vereinigungen</span><span class="text">: </span><span class="value">siehe Vergabeunterlagen</span>
+                            </section>
+                            <section title="block02011601">
+                                <span class="dynamic-label">Bildung terroristischer Vereinigungen</span><span class="text">: </span><span class="value">siehe Vergabeunterlagen</span>
+                            </section>
+                            <section title="block02011601">
+                                <span class="dynamic-label">Geldwäsche oder Terrorismusfinanzierung</span><span class="text">: </span><span class="value">siehe Vergabeunterlagen</span>
+                            </section>
+                            <section title="block02011601">
+                                <span class="dynamic-label">Interessenkonflikt</span><span class="text">: </span><span class="value">siehe Vergabeunterlagen</span>
+                            </section>
+                            <section title="block02011601">
+                                <span class="dynamic-label">Mangelhafte Erfüllung eines früheren öffentlichen Auftrags</span><span class="text">: </span><span class="value">siehe Vergabeunterlagen</span>
+                            </section>
+                            <section title="block02011601">
+                                <span class="dynamic-label">Menschenhandel, Zwangsprostitution, Zwangsarbeit oder Ausbeutung</span><span class="text">: </span><span class="value">siehe Vergabeunterlagen</span>
+                            </section>
+                            <section title="block02011601">
+                                <span class="dynamic-label">Mit Insolvenz vergleichbares Verfahren</span><span class="text">: </span><span class="value">siehe Vergabeunterlagen</span>
+                            </section>
+                            <section title="block02011601">
+                                <span class="dynamic-label">Schwere Verfehlung</span><span class="text">: </span><span class="value">siehe Vergabeunterlagen</span>
+                            </section>
+                            <section title="block02011601">
+                                <span class="dynamic-label">Täuschung oder unzulässige Beeinflussung des Vergabeverfahrens</span><span class="text">: </span><span class="value">siehe Vergabeunterlagen</span>
+                            </section>
+                            <section title="block02011601">
+                                <span class="dynamic-label">Verstöße gegen arbeitsrechtliche Verpflichtungen</span><span class="text">: </span><span class="value">siehe Vergabeunterlagen</span>
+                            </section>
+                            <section title="block02011601">
+                                <span class="dynamic-label">Verstöße gegen sozialrechtliche Verpflichtungen</span><span class="text">: </span><span class="value">siehe Vergabeunterlagen</span>
+                            </section>
+                            <section title="block02011601">
+                                <span class="dynamic-label">Verstöße gegen Verpflichtungen zur Zahlung von Sozialversicherungsbeiträgen</span><span class="text">: </span><span class="value">siehe Vergabeunterlagen</span>
+                            </section>
+                            <section title="block02011601">
+                                <span class="dynamic-label">Verstöße gegen Verpflichtungen zur Zahlung von Steuern oder Abgaben</span><span class="text">: </span><span class="value">siehe Vergabeunterlagen</span>
+                            </section>
+                            <section title="block02011601">
+                                <span class="dynamic-label">Wettbewerbsbeschränkende Vereinbarungen</span><span class="text">: </span><span class="value">siehe Vergabeunterlagen</span>
+                            </section>
+                            <section title="block02011601">
+                                <span class="dynamic-label">Wettbewerbsverzerrung wegen Vorbefassung</span><span class="text">: </span><span class="value">siehe Vergabeunterlagen</span>
+                            </section>
+                            <section title="block02011601">
+                                <span class="dynamic-label">Zahlungsunfähigkeit</span><span class="text">: </span><span class="value">siehe Vergabeunterlagen</span>
+                            </section>
+                        </section>
+                    </section>
+                </section>
+                <section title="block04">
+                    5&nbsp;<span class="label">Los</span>
+                    <section title="block0401">
+                        5.1&nbsp;<span class="label">Interne Referenz-ID Los</span><span class="text">: </span><span class="value">LOT-0000</span>
+                        <section title="block040101">
+                            <span class="label">Titel</span><span class="text">: </span><span class="value">Projektträgerschaft zur Förderung von Projekten im ‘Nationalen Artenhilfsprogramm‘</span>
+                        </section>
+                        <section title="block040102">
+                            <span class="label">Beschreibung</span><span class="text">: </span><span class="value">Bestandteil dieser Vergabe ist die Wahrnehmung der Projektträgerschaft für das Nationale Artenhilfsprogramm, mit dem die Projektförderung entlang der inhaltlichen und formalen Vorgaben der Auftraggeberin fachlich und administrativ in allen Phasen umzusetzen ist. Dazu gehören insbesondere die Erarbeitung von Förderbekanntmachungen und Projektaufrufen unter Beachtung des Gesamtförderkonzeptes der Auftraggeberin, die Erstellung und Fortentwicklung von Skizzen- und Antragsunterlagen, die Beratung der Interessent*i+nnen und Antragstellenden, die Prüfung der Skizzen und Anträge, die Bewilligung bzw. Ablehnung von Zuwendungen/Zuweisungen und die fachlich-administrative Betreuung während der Laufzeit bis hin zur Verwendungsnachweisprüfung.<br>Das Programmbüro unterstützt die Auftraggeberin bei der Weiterentwicklung des Förderprogramms AHP unter Beachtung der Entwicklung der Gesamtförderlandschaft des BMUV. Die Verbreitung der Ergebnisse aus den Projekten und ihrer Evaluation durch Fachkommunikation, Veranstaltungsorganisation und -teilnahme ist ebenfalls zu unterstützen.<br>Auch die Vergabe ausgewählter Projektevaluations-Aufträge, sowie die fachliche und administrative Begleitung und Bewertung der einzelnen Projektevaluations-Vorhaben, die Kommunikation von Aktivitäten und Ergebnissen der ausgewählten Projekte sowie die Unterstützung von Transferaktivitäten gehören zum Aufgabenprofil des Programmbüros.</span>
+                        </section>
+                        <section title="block040103">
+                            <span class="label">Interne Kennung</span><span class="text">: </span><span class="value">3524152100-La</span>
+                        </section>
+                        <section title="block040104">
+                            5.1.1&nbsp;<span class="label">Zweck</span>
+                            <section title="block04010401">
+                                <span class="label">Art des Auftrags</span><span class="text">: </span><span class="dynamic-label">Dienstleistungen</span>
+                            </section>
+                            <section title="block04010402">
+                                <span class="label">Zusätzliche Art des Auftrags</span><span class="text">: </span><span class="dynamic-label">Lieferungen</span>
+                            </section>
+                            <section title="block04010403">
+                                <span class="label">Hauptklassifizierungscode</span><span class="text"> </span><span class="text">(</span><span class="value">cpv</span><span class="text">): </span><span class="value">75100000</span><span class="text"> </span><span class="dynamic-label">Dienstleistungen der Verwaltung</span>
+                            </section>
+                        </section>
+                        <section title="block040105">
+                            5.1.2&nbsp;<span class="label">Erfüllungsort</span>
+                            <section title="block04010504">
+                                <span class="label">NUTS-3-Code</span><span class="text">: </span><span class="dynamic-label">Bonn, Kreisfreie Stadt</span><span class="text"> </span><span class="text">(</span><span class="value">DEA22</span><span class="text">)</span>
+                            </section>
+                            <section title="block04010505">
+                                <span class="label">Land</span><span class="text">: </span><span class="dynamic-label">Deutschland</span>
+                            </section>
+                            <section title="block04010507">
+                                <span class="label">Zusätzliche Angaben zum Erfüllungsort</span><span class="text">: </span><span class="value"></span>
+                            </section>
+                        </section>
+                        <section title="block040106">
+                            5.1.3&nbsp;<span class="label">Geschätzte Dauer</span>
+                            <section title="block04010601">
+                                <span class="label">Datum des Beginns</span><span class="text">: </span><span class="value">01/08/2025</span>
+                            </section>
+                            <section title="block04010602">
+                                <span class="label">Enddatum der Laufzeit</span><span class="text">: </span><span class="value">31/07/2029</span>
+                            </section>
+                        </section>
+                        <section title="block040109">
+                            5.1.6&nbsp;<span class="label">Allgemeine Informationen</span>
+                            <section title="block04010904">
+                                <span class="label">Vorbehaltene Teilnahme</span><span class="text">: </span><span class="dynamic-label">Teilnahme ist nicht vorbehalten.</span>
+                            </section>
+                            <section title="block04010906">
+                                <span class="dynamic-label">Auftragsvergabeprojekt nicht aus EU-Mitteln finanziert</span>
+                            </section>
+                            <section title="block04010908">
+                                <span class="label">Die Beschaffung fällt unter das Übereinkommen über das öffentliche Beschaffungswesen</span><span class="text">: </span><span class="label">nein</span>
+                            </section>
+                        </section>
+                        <section title="block040110">
+                            5.1.7&nbsp;<span class="label">Strategische Auftragsvergabe</span>
+                            <section title="block04011001">
+                                <span class="label">Art der strategischen Beschaffung</span><span class="text">: </span><span class="dynamic-label">Keine strategische Beschaffung</span>
+                            </section>
+                        </section>
+                        <section title="block040112">
+                            5.1.9&nbsp;<span class="label">Eignungskriterien</span>
+                            <section title="block04011201">
+                                <span class="label">Kriterium</span><span class="text">:</span>
+                                <section title="block0401120101">
+                                    <span class="label">Art</span><span class="text">: </span><span class="dynamic-label">Technische und berufliche Leistungsfähigkeit</span>
+                                </section>
+                                <section title="block0401120102">
+                                    <span class="label">Bezeichnung</span><span class="text">: </span><span class="value">Angabe der technischen Fachkräfte,<br>Nachweis der Beleihungsfähigkeit</span>
+                                </section>
+                                <section title="block0401120103">
+                                    <span class="label">Beschreibung</span><span class="text">: </span><span class="value">Details sind den Vergabeunterlagen zu entnehmen</span>
+                                </section>
+                            </section>
+                            <section title="block04011201">
+                                <span class="label">Kriterium</span><span class="text">:</span>
+                                <section title="block0401120101">
+                                    <span class="label">Art</span><span class="text">: </span><span class="dynamic-label">Wirtschaftliche und finanzielle Leistungsfähigkeit</span>
+                                </section>
+                                <section title="block0401120102">
+                                    <span class="label">Bezeichnung</span><span class="text">: </span><span class="value">Ausschlussgründe und Unternehmensangaben</span>
+                                </section>
+                                <section title="block0401120103">
+                                    <span class="label">Beschreibung</span><span class="text">: </span><span class="value">Nachweis einer Betriebshaftpflichtversicherung; Details sind den Vergabeunterlagen zu entnehmen</span>
+                                </section>
+                            </section>
+                        </section>
+                        <section title="block040113">
+                            5.1.10&nbsp;<span class="label">Zuschlagskriterien</span>
+                            <section title="block04011302">
+                                <span class="label">Beschreibung der anzuwendenden Methode, wenn die Gewichtung nicht durch Kriterien ausgedrückt werden kann</span><span class="text">: </span><span class="value">siehe Vergabeunterlage "Zuschlagskriterien"</span>
+                            </section>
+                        </section>
+                        <section title="block040114">
+                            5.1.11&nbsp;<span class="label">Auftragsunterlagen</span>
+                            <section title="block04011403">
+                                <span class="label">Verbindliche Sprachfassung der Vergabeunterlagen</span><span class="text">: </span><span class="dynamic-label">Deutsch</span>
+                            </section>
+                            <section title="block04011405">
+                                <span class="label">Frist für die Anforderung zusätzlicher Informationen</span><span class="text">: </span><span class="value">17/04/2025</span><span class="text"> </span><span class="value"></span>
+                            </section>
+                            <section title="block04011407">
+                                <span class="label">Internetadresse der Auftragsunterlagen</span><span class="text">: </span><span class="value">https://www.evergabe-online.de/tenderdocuments.html?id=762074</span>
+                            </section>
+                        </section>
+                        <section title="block040115">
+                            5.1.12&nbsp;<span class="label">Bedingungen für die Auftragsvergabe</span>
+                            <section title="block04011503">
+                                <span class="label">Bedingungen für die Einreichung</span><span class="text">:</span>
+                                <section title="block0401150301">
+                                    <span class="label">Elektronische Einreichung</span><span class="text">: </span><span class="dynamic-label">Erforderlich</span>
+                                </section>
+                                <section title="block0401150302">
+                                    <span class="label">Adresse für die Einreichung</span><span class="text">: </span><span class="value">https://www.evergabe-online.de/auth/auth.html?3</span>
+                                </section>
+                                <section title="block0401150305">
+                                    <span class="label">Sprachen, in denen Angebote oder Teilnahmeanträge eingereicht werden können</span><span class="text">: </span><span class="dynamic-label">Deutsch</span>
+                                </section>
+                                <section title="block0401150306">
+                                    <span class="label">Elektronischer Katalog</span><span class="text">: </span><span class="dynamic-label">Nicht zulässig</span>
+                                </section>
+                                <section title="block0401150308">
+                                    <span class="label">Nebenangebote</span><span class="text">: </span><span class="dynamic-label">Nicht zulässig</span>
+                                </section>
+                                <section title="block0401150309">
+                                    <span class="label">Die Bieter können mehrere Angebote einreichen</span><span class="text">: </span><span class="dynamic-label">Nicht zulässig</span>
+                                </section>
+                                <section title="block0401150312">
+                                    <span class="label">Frist für den Eingang der Angebote</span><span class="text">: </span><span class="value">08/05/2025</span><span class="text"> </span><span class="value">10:00 +02:00</span>
+                                </section>
+                                <section title="block0401150313">
+                                    <span class="label">Frist, bis zu der das Angebot gültig sein muss</span><span class="text">: </span><span class="value">8</span><span class="text"> </span><span class="label">Woche</span>
+                                </section>
+                            </section>
+                            <section title="block04011504">
+                                <span class="label">Informationen, die nach Ablauf der Einreichungsfrist ergänzt werden können</span><span class="text">:</span>
+                                <section title="block0401150401">
+                                    <span class="dynamic-label">Eine Nachforderung von Unterlagen nach Fristablauf ist nicht ausgeschlossen.</span>
+                                </section>
+                                <section title="block0401150402">
+                                    <span class="label">Zusätzliche Informationen</span><span class="text">: </span><span class="value">Hinsichtlich der Nachforderung gilt § 56 VgV</span>
+                                </section>
+                            </section>
+                            <section title="block04011506">
+                                <span class="label">Auftragsbedingungen</span><span class="text">:</span>
+                                <section title="block0401150601">
+                                    <span class="label">Die Auftragsausführung ist bestimmten Auftragnehmern vorbehalten</span><span class="text">: </span><span class="dynamic-label">Nein</span>
+                                </section>
+                                <section title="block0401150604">
+                                    <span class="label">Elektronische Rechnungsstellung</span><span class="text">: </span><span class="dynamic-label">Erforderlich</span>
+                                </section>
+                                <section title="block0401150605">
+                                    <span class="label">Aufträge werden elektronisch erteilt</span><span class="text">: </span><span class="label">nein</span>
+                                </section>
+                                <section title="block0401150606">
+                                    <span class="label">Zahlungen werden elektronisch geleistet</span><span class="text">: </span><span class="label">ja</span>
+                                </section>
+                                <section title="block0401150608">
+                                    <span class="label">Bestimmungen zur Finanzierung</span><span class="text">: </span><span class="value">Für den Vetragsabschluss gelten die Allgemeinen Bedingungen für Forschungs- und Entwicklungsverträge (ABFE-BMU) sowie die Verdingungsordnung für Leistungen Teil B (VOL/B).</span>
+                                </section>
+                            </section>
+                        </section>
+                        <section title="block040116">
+                            5.1.15&nbsp;<span class="label">Techniken</span>
+                            <section title="block04011601">
+                                <span class="label">Rahmenvereinbarung</span><span class="text">:</span>
+                                <section title="block0401160101">
+                                    <span class="dynamic-label">Keine Rahmenvereinbarung</span>
+                                </section>
+                            </section>
+                            <section title="block04011602">
+                                <span class="label">Informationen über das dynamische Beschaffungssystem</span><span class="text">:</span>
+                                <section title="block0401160201">
+                                    <span class="dynamic-label">Kein dynamisches Beschaffungssystem</span>
+                                </section>
+                            </section>
+                            <section title="block04011603">
+                                <span class="label">Elektronische Auktion</span><span class="text">: </span><span class="label">nein</span>
+                            </section>
+                        </section>
+                        <section title="block040117">
+                            5.1.16&nbsp;<span class="label">Weitere Informationen, Schlichtung und Nachprüfung</span>
+                            <section title="block04011702">
+                                <span class="label">Überprüfungsstelle</span><span class="text">: </span><span class="value">Bundesamt für Naturschutz</span>
+                            </section>
+                        </section>
+                    </section>
+                </section>
+                <section title="block05">
+                    8&nbsp;<span class="label">Organisationen</span>
+                    <section title="block0501">
+                        8.1&nbsp;<span class="value">ORG-0000</span>
+                        <section title="block050101">
+                            <span class="label">Offizielle Bezeichnung</span><span class="text">: </span><span class="value">Bundesamt für Naturschutz</span>
+                        </section>
+                        <section title="block050102">
+                            <span class="label">Identifikationsnummer</span><span class="text">: </span><span class="value">991-00227BMUV-53</span>
+                        </section>
+                        <section title="block050105">
+                            <span class="label">Ort</span><span class="text">: </span><span class="value">Bonn</span>
+                        </section>
+                        <section title="block050106">
+                            <span class="label">Postleitzahl</span><span class="text">: </span><span class="value">53179</span>
+                        </section>
+                        <section title="block050107">
+                            <span class="label">NUTS-3-Code</span><span class="text">: </span><span class="dynamic-label">Bonn, Kreisfreie Stadt</span><span class="text"> </span><span class="text">(</span><span class="value">DEA22</span><span class="text">)</span>
+                        </section>
+                        <section title="block050108">
+                            <span class="label">Land</span><span class="text">: </span><span class="dynamic-label">Deutschland</span>
+                        </section>
+                        <section title="block050110">
+                            <span class="label">E-Mail</span><span class="text">: </span><span class="value">Ref-Z4@bfn.de</span>
+                        </section>
+                        <section title="block050111">
+                            <span class="label">Telefon</span><span class="text">: </span><span class="value">000</span>
+                        </section>
+                        <section title="block050117">
+                            <span class="label">Rollen dieser Organisation</span><span class="text">:</span>
+                            <section title="block05011701">
+                                <span class="label">Beschaffer</span>
+                            </section>
+                            <section title="block05011708">
+                                <span class="label">Überprüfungsstelle</span>
+                            </section>
+                        </section>
+                    </section>
+                </section>
+                <section title="block07">
+                    11&nbsp;<span class="label">Informationen zur Bekanntmachung</span>
+                    <section title="block0701">
+                        11.1&nbsp;<span class="label">Informationen zur Bekanntmachung</span>
+                        <section title="block070101">
+                            <span class="label">Kennung/Fassung der Bekanntmachung</span><span class="text">: </span><span class="value">db1b7fe5-1ca4-4569-9c50-088f0166b810</span><span class="text"> </span><span class="text">- </span><span class="value">01</span>
+                        </section>
+                        <section title="block070102">
+                            <span class="label">Formulartyp</span><span class="text">: </span><span class="dynamic-label">Wettbewerb</span>
+                        </section>
+                        <section title="block070103">
+                            <span class="label">Art der Bekanntmachung</span><span class="text">: </span><span class="dynamic-label">Auftrags- oder Konzessionsbekanntmachung – Standardregelung</span>
+                        </section>
+                        <section title="block070104">
+                            <span class="label">Datum der Übermittlung der Bekanntmachung</span><span class="text">: </span><span class="value">28/03/2025</span><span class="text"> </span><span class="value">00:00 +01:00</span>
+                        </section>
+                        <section title="block070106">
+                            <span class="label">Sprachen, in denen diese Bekanntmachung offiziell verfügbar ist</span><span class="text">: </span><span class="dynamic-label">Deutsch</span><span class="text"> </span><span class="dynamic-label"></span>
+                        </section>
+                    </section>
+                    <section title="block0702">
+                        11.2&nbsp;<span class="label">Informationen zur Veröffentlichung</span>
+                    </section>
+                </section></div>
+
+            <div class="row button-group">
+                <div class="col-xs-12 col-sm-12 col-md-12">
+                    <a class="btn btn-primary" id="id98b" href="./tenderdocuments.html?id=762074">Ausschreibungsunterlagen einsehen</a>
+                </div>
+            </div>
+
+
+
+            <hr>
+
+            <div class="link-container text-right">
+                <a rel="nofollow" target="_blank" class="icon" href="./Bekanntmachung.pdf?id=762074" title="PDF der Bekanntmachung"><i class="fa fa-file-pdf-o"></i> PDF</a>
+                <a rel="nofollow" target="_blank" class="icon" href="./download/Bekanntmachung.xml?id=762074" title="XML der Bekanntmachung"><i class="fa fa-file-text-o"></i> XML</a>
+            </div>
+
+            <hr>
+
+
+
+
+
+
+            <div class="row">
+                <div class="col-sm-6 gui-id">
+                    <label>
+                        XVergabe GUID:
+                    </label>
+                    <span class="form-control-static">25e79ac7-ee9e-4c8d-910e-99a138f03f4b</span>
+                </div>
+                <div class="col-sm-6 link-procedure">
+                    <label>
+                        Link zu dieser Bekanntmachung:
+                    </label>
+                    <a href="./tenderdetails.html?id=762074">
+                        https://www.evergabe-online.de/tenderdetails.html?id=762074
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+    </main>
+</div>
